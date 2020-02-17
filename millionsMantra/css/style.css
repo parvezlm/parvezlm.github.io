@@ -73,6 +73,7 @@ button:focus {
 	width: 100%;
 	background: transparent;
 	transition: all 0.1s;
+    z-index: 99;
 }
 
 .header .hamburger {
@@ -311,7 +312,7 @@ button:focus {
             width: 40px;
             height: 7px;
             border-radius: 99px;
-            background: #ff9027;
+            background: #ffcc00;
             z-index: 10;
             transition: 0.25s;
         }
@@ -548,7 +549,7 @@ button:focus {
             box-shadow: 0 0 35px -5px rgba(0, 0, 0, 0.15);
             opacity: 0.9;
             border-radius: 12px;
-            background-image: radial-gradient(circle at 57% 46%, #2375f7, #0044b3);
+            background-image: radial-gradient(circle at 57% 46%, #0058e4, #09357b);
         }
 
         .productsFront .slick-slide {

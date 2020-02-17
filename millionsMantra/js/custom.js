@@ -41,7 +41,8 @@ $('.hamburger').click(function() {
      arrows: false,
      infinite: true,
      speed: 300,
-     slidesToShow: 3,
+     slidesToShow: 4,
+     slideToScroll:2,
      centerMode: true,
      variableWidth: true,
      responsive: [{
