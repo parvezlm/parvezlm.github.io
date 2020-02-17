@@ -1,0 +1,21 @@
+@media (min-width: 1300px) {
+	.container {
+		max-width: 1230px;
+	}
+}
+
+@media screen and(max-width: 1199px){}
+
+@media screen and(max-width: 991px){}
+
+@media screen and(max-width: 767px){
+	.header .hamburger {
+		display: block;
+	}
+}
+
+@media screen and(max-width: 576px){}
+
+@media screen and(max-width: 560px){}
+
+@media screen and(max-width: 414px){}
