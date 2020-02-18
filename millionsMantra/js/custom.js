@@ -28,9 +28,9 @@ if (hamburgers.length > 0) {
 $('.hamburger').click(function() {
 
     if ($(this).hasClass('is-active')) {
-        $('#mySidenav').css('left', '0px');
+        $('.sidebar').css('left', '0px');
     } else {
-        $('#mySidenav').css('left', '-250px');
+        $('.sidebar').css('left', '-250px');
     }
 });
 

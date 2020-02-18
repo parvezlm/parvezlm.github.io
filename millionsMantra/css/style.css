@@ -82,14 +82,14 @@ button:focus {
     height: 25px;
     padding: 0px;
     width: 25px;
-    padding-top: 12px;
+    padding-top: 22px;
     opacity: 1
 }
 
 .hamburger-inner,
 .hamburger-inner::before,
 .hamburger-inner::after {
-    background: #05582d;
+    background: #ffcc00;
     border-radius: 0;
     width: 25px;
     height: 3px;
@@ -113,6 +113,7 @@ button:focus {
 
 .header .menu {
 	margin-top: 15px;
+        margin-left: 70px;
 }
 
 .header .menu li {
@@ -160,6 +161,26 @@ button:focus {
     width: 145px;
 }
 /*header end*/
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    padding-top: 130px;
+    background: #09357b;
+    left: -250px;
+    top: 0;
+    transition: all 0.3s ease-out;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
 
 /*banner*/
 .banner {
@@ -194,6 +215,10 @@ button:focus {
     border:2px solid #ffcc00;
 }
 
+.showMob {
+    display: none;
+}
+
 .banner .joinExplr_btn:hover {
 	background: transparent;
 	color: #fff;
@@ -217,7 +242,7 @@ button:focus {
 }
 
 .commHead {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bold;
     letter-spacing: 0.13px;
     text-align: center;
@@ -573,6 +598,78 @@ button:focus {
         }
 
 
+   
         .travel {
-        	padding: 60px 0 50px;
+        	padding: 70px 0 100px;
         }
+
+.provide_sec {
+    background: url(../img/bg.png) no-repeat;
+    padding: 90px 0 70px;
+    background-size: cover;
+}
+
+.provide_inner h2 {
+    color: #fff;
+    margin-bottom: 90px;
+}
+
+.box {
+    height: 100%;
+    /*border: 1px solid #05a0c4;*/
+}
+
+.box h3 {
+    color: #fff;
+    font-size: 22px;
+    margin: 30px 0 0;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.box p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.uline {
+    width: 60px;
+    height: 5px;
+    background: #ffcc00;
+    border-radius: 25px;
+    margin: 20px auto 20px;
+}
+
+.expr_btn:hover {
+    border-color: #fff;
+    color: #fff;
+}
+
+.profsnl {
+    padding: 90px 0 70px;
+}
+
+.profsnl_inr h2 {
+    font-size: 40px;
+    margin-bottom: 58px;
+}
+
+.profsnl_inr p {
+    font-size: 18px;
+}
+
+footer {
+    padding: 90px 0 70px;
+    background:#09357b;
+}
+
+.footer_inr p {
+    color: #fff;
+}
+
+.line {
+    width: 200px;
+    height: 1px;
+    background: #eee;
+    margin: 20px auto 20px;
+}

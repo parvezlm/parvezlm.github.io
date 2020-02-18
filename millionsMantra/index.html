@@ -3,12 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="vieport" content="width=device-width,initial-scale=1">
-    <title>MillionsMantra</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>MillionsMantra | Home</title>
 
     <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <style>
@@ -23,7 +25,7 @@
         <div class="container">
             <div class="header_inner">
                 <nav class="navbar">
-                    <div class="">
+                    <div class="toggle_btn">
                         <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
                             <span class="hamburger-box">
                                 <span class="hamburger-inner"></span>
@@ -50,6 +52,20 @@
     </header>
     <!-- header end-->
 
+
+    <!-- sidebar -->
+    <div class="sidebar">
+        <div class="sidebarlink">
+            <a href="">About</a>
+            <a href="">Product</a>
+            <a href="">Benefits</a>
+            <a href="">Apps</a>
+            <a href="">Login</a>
+            <a href="">Signup</a>
+        </div>
+    </div>
+    <!-- sidebar end-->
+
     <!-- banner section -->
     <section class="banner"> 
         <div class="container">
@@ -62,7 +78,7 @@
                         <img src="img/arrow-long.svg" alt="arrow icon">
                     </button>
                 </div>
-                <div class="banner_btm text-center">
+                <div class="banner_btm text-center hidemob">
                     <h2 class="commHead">Get to know the  MillionsMantra idea </h2>
                     <p class="comm_details"><strong>MillionsMantra</strong> means people and their Future. Together we create a community <br>focused on multi-level marketing. Every day we work hard to deliver new products <br>and solutions which will make the world a better place.</p>
                 </div>
@@ -75,6 +91,10 @@
     <section class="video_sec">
         <div class="container">
             <div class="videoSec_iner">
+                <div class="banner_btm text-center showMob">
+                    <h2 class="commHead">Get to know the  MillionsMantra idea </h2>
+                    <p class="comm_details"><strong>MillionsMantra</strong> means people and their Future. Together we create a community <br>focused on multi-level marketing. Every day we work hard to deliver new products <br>and solutions which will make the world a better place.</p>
+                </div>
                 <picture>
                     <source media="(max-width: 700px)" srcset="img/mobleimg.png">
                     <source media="(min-width: 701px)" srcset="img/desktopimg.png">
@@ -99,6 +119,7 @@
     </section>  
     <!-- product section end-->
 
+    <!-- slider section -->
     <section class="productsFront">
         <div class="cards-slider cards">
             <div class="_init cards_init">
@@ -129,7 +150,7 @@
                         </div>
                         <img src="img/travel.jpg" style="position: absolute; top: 0; left: 0; width: 100%;
                         height: 100%; opacity: .5;">
-                        <a class="cards__link" href="https://fnacademy.futurenet.club/" target="_blank"></a>
+                        <a class="cards__link" href="" target="_blank"></a>
                     </div>
                 </div>
                 <div class="cards__item item" style="outline: none;">
@@ -144,7 +165,7 @@
                         </div>
                         <img src="img/travel.jpg" style="position: absolute; top: 0; left: 0; width: 100%;
                         height: 100%; opacity: .5;">
-                        <a class="cards__link" href="https://fnacademy.futurenet.club/" target="_blank"></a>
+                        <a class="cards__link" href="" target="_blank"></a>
                     </div>
                 </div>
                 <div class="cards__item item" style="outline: none;">
@@ -159,43 +180,30 @@
                         </div>
                         <img src="img/travel.jpg" style="position: absolute; top: 0; left: 0; width: 100%;
                         height: 100%; opacity: .5;">
-                        <a class="cards__link" href="https://fnacademy.futurenet.club/" target="_blank"></a>
+                        <a class="cards__link" href="" target="_blank"></a>
                     </div>
                 </div>
                 <div class="cards__item item" style="outline: none;">
                     <div class="item__card card">
                         <div class="card__logo">
-                            <img src="img/4.png">
+                            <img src="img/MM Power.png">
                         </div>
                         <div class="card__content content">
                             <img class="content__img" src="img/travel.jpg" />
-                            <p class="content__title">MM Game</p>
-                            <p class="content__desc">We work on new technology and work on games which you can learn, earn & time pass your free time. Welcome to MM Game.</p>
+                            <p class="content__title">MM Power</p>
+                            <p class="content__desc">We work on new technology and build platforms which you can learn, earn & invest your free time. Welcome to MM Power.</p>
                         </div>
                         <img src="img/travel.jpg" style="position: absolute; top: 0; left: 0; width: 100%;
                         height: 100%; opacity: .5;">
-                        <a class="cards__link" href="https://fnacademy.futurenet.club/" target="_blank"></a>
+                        <a class="cards__link" href="" target="_blank"></a>
                     </div>
-                </div>
-                <div class="cards__item item" style="outline: none;">
-                    <div class="item__card card">
-                        <div class="card__logo">
-                            <img src="img/3.png">
-                        </div>
-                        <div class="card__content content">
-                            <img class="content__img" src="img/travel.jpg" />
-                            <p class="content__title">MM Academy</p>
-                            <p class="content__desc">We believe in continuous improvement of our skills and gaining knowledge. Welcome to MM Academy.</p>
-                        </div>
-                        <img src="img/travel.jpg" style="position: absolute; top: 0; left: 0; width: 100%;
-                        height: 100%; opacity: .5;">
-                        <a class="cards__link" href="https://fnacademy.futurenet.club/" target="_blank"></a>
-                    </div>
-                </div>
+                </div>  
             </div>
         </div>
     </section>
+    <!-- slider section end-->
 
+    <!-- travel section -->
     <section class="travel">
         <div class="container">
             <div class="travel_inner">
@@ -207,10 +215,86 @@
             </div>
         </div>
     </section>
+<!-- travel section end-->
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <!-- million mantra provide -->
+    <section class="provide_sec">  
+        <div class="container">
+            <div class="provide_inner">
+                <h2 class="commHead">What MillionsMantra Provide you!</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                      <div class="box text-center">
+                          <img src="img/icon1.svg" class="img-fluid" alt="icon">
+                          <h3>Leading <br>Community</h3>
+                          <div class="uline"></div>
+                          <p>Millions of people around the world trusted us and stared to change their lives. Become part of our world.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="box text-center">
+                          <img src="img/icon2.svg" class="img-fluid" alt="icon">
+                          <h3>Multiple ways of benefits</h3>
+                          <div class="uline"></div>
+                          <p>MillionsMantra users get part of the profits from advertising on the platform in return for activity. There is still much more…</p>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="box text-center">
+                          <img src="img/icon3.svg" class="img-fluid" alt="icon">
+                          <h3>User Friendly Online Products</h3>
+                          <div class="uline"></div>
+                          <p>High level of technology and user friendly design. These are two common features of all our products. Check them Out!</p>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="box text-center">
+                          <img src="img/icon4.svg" class="img-fluid" alt="icon">
+                          <h3>Wide developed MLM ecosystem</h3>
+                          <div class="uline"></div>
+                          <p>We are specialists in the field of multi-level marketing. We focus on absolute transparency of actions and trusted solutions.</p>
+                      </div>
+                    </div>
+                </div>
+                 <div class="text-center">
+                    <a href="" class="toGet_btn expr_btn">Join & Explore world!</a>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- million mantra provide end-->
+
+    <!-- professional section -->
+    <section class="profsnl">
+        <div class="container">
+            <div class="profsnl_inr">
+                <h2 class="commHead">24/7 Professional education system,<br> that works for you! </h2>
+                <p>We have prepared amazing content that will help you develop your business and expand your network of contacts. Quickly, effectively and without leaving your home.</p>
+                <p class="mb-3 mt-3 mb-sm-4 mt-sm-4">Try <strong>MillionsMantra</strong> learning tutorials Daily drop of motivation.This MM Academy will boost your business. Visit our MM Academy Discover training materials from the greatest specialists.</p>
+                <p>We are Worldwide We are Future! We organize events all around you to show you that the only boundaries that exist are those in our heads. Dare to dream! <strong>MillionsMantra</strong> operates all over India. We are proud of the fact that our work connects people! </p>
+
+                <div class="text-center">
+                    <a href="" class="toGet_btn">Join & Explore world!</a>
+                </div>
+            </div>
+        </div>   
+    </section>
+    <!-- professional section end-->
+    
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer_inr text-center">
+                <p>Powered by Keywordsfly Technology Private Limited</p>
+                <div class="line"></div>
+                <p>Copyright @ MillionsMantra.in 2019</p>
+
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
    
-    <script src="js/jquery.min.js"></script>
+     <script src="js/jquery.min.js"></script>
      <script type="text/javascript" src="js/slick.min.js"></script>
      <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
