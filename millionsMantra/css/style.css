@@ -148,7 +148,7 @@ button:focus {
 }
 
 .fixed_header {
-	background: #09357b;
+	background: #000;
 	position: fixed;
 	top: 0;
 	left: 0;
