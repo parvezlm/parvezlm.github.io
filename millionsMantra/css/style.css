@@ -166,10 +166,11 @@ button:focus {
     width: 250px;
     height: 100%;
     padding-top: 130px;
-    background: #09357b;
+    background: #000;
     left: -250px;
     top: 0;
     transition: all 0.3s ease-out;
+    z-index: 9;
 }
 
 .sidebar a {
@@ -660,7 +661,7 @@ button:focus {
 
 footer {
     padding: 90px 0 70px;
-    background:#09357b;
+    background:#000;
 }
 
 .footer_inr p {
