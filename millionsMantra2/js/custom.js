@@ -36,20 +36,20 @@ $('.hamburger').click(function() {
 
 
 
- $('.slider').slick({
+ $('.cards ._init').slick({
      dots: false,
      arrows: false,
      infinite: true,
      speed: 300,
-     slidesToShow: 3,
-     slideToScroll:1,
+     slidesToShow: 4,
+     slideToScroll:2,
      centerMode: true,
      variableWidth: true,
      responsive: [{
              breakpoint: 1200,
              settings: {
-                 slidesToShow: 3,
-                 slidesToScroll: 1,
+                 slidesToShow: 2,
+                 slidesToScroll: 2,
              }
          },
          {
@@ -61,33 +61,3 @@ $('.hamburger').click(function() {
          },
      ]
  });
-
- $('.scrollMenu a.link').click(function(e) {
-      e.preventDefault();
-     var crElm = $(this).attr('data-section');
-     $('html,body').animate({
-          scrollTop: $('.' + crElm).offset().top - 80
-     },500);
-     $('.sidebar').css('left','-250px');
-     $('.header .hamburger').removeClass('is-active');
- });
-
- $('.arrowbox button').click(function() {
-     $('html,body').animate({
-         scrollTop:$('.about').offset().top - 80
-     },500)
-     $('.scrollMenu a[data-section="about"]').addClass('active');
- });
-
- $('.scrollMenu a').click(function() {
-      $('.scrollMenu a').removeClass('active');
-      $(this).addClass('active');
- });
-
-
-$(window).on('scroll',function() {
-    var pos = $(window).height()
-    if($(window).scrollTop() == 0) {
-        $('.scrollMenu a').removeClass('active');
-    }
-});

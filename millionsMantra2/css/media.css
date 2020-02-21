@@ -15,7 +15,7 @@
 	}
 
 	.banner p {
-		margin-bottom: 40px;
+		margin-bottom: 10px;
 	}
 
 	.product_inner p br {
@@ -38,8 +38,7 @@
 	}
 
 	.banner  {
-		padding-top: 160px;
-		padding-bottom: 80px;
+		padding-top: 150px;
 		background-position: center center;
 	}
 
@@ -103,21 +102,6 @@
 	.rht {
 		margin-bottom: 40px;
 	}
-
-	.banner_btm {
-    padding-top: 0;
-}
-
-.banner_btm p br,.profsnl_inr h2 br {
-	display: none;
-}
-
-.banner_btm p {
-	margin-bottom: 40px;
-}
-.profsnl {
-    padding: 60px 0 60px;
-}
 }
 
 @media (max-width: 767px){
@@ -160,10 +144,6 @@
 	display: none;
 }
 
-.profsnl_inr h2 {
-    font-size: 34px;
-    }
-
 }
 
 @media (max-width: 575px){
@@ -176,7 +156,7 @@
 }
 
 .banner_btm {
-    padding-top: 50px;
+    padding-top: 35px;
 }
 .profsnl_inr h2 {
     font-size: 32px;
@@ -237,15 +217,6 @@ footer {
 		text-align: center;
 	}
 
-	.banner h1 br {
-		display: none;
-	}
-
-	.banner {
-    padding-top: 130px;
-    padding-bottom: 50px;
-}
-
 	.banner p {
 		font-size: 18px;
 		text-align: center;
@@ -273,7 +244,7 @@ footer {
 
 .toGet_btn {
 	font-size: 14px;
-	padding: 15px 40px 13px;
+	padding: 15px 25px 13px;
 }
 
 .travel {

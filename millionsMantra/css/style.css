@@ -147,6 +147,11 @@ button:focus {
 	width: 100%;
 }
 
+.scrollMenu a.active {
+    border-bottom: 1px solid #ffcc00;
+    color: #fff!important;
+}
+
 .fixed_header {
 	background: #000;
 	position: fixed;
@@ -185,15 +190,15 @@ button:focus {
 
 /*banner*/
 .banner {
-	background:url(../img/banner-background.png) no-repeat;
+	background:url(../img/banner.png) no-repeat;
 	background-size: cover;
-	padding:200px 0 0;
+	padding:235px 0 140px;
 }
 
 .banner h1 {
 	font-size: 48px;
     font-weight: 700;
-    line-height: 56px;
+    line-height: 68px;
     letter-spacing: 0.13px;
     color: #fff;
     text-transform: capitalize;
@@ -235,7 +240,7 @@ button:focus {
 	background: transparent;
 	text-align: center;
 	display: block;
-	margin: 14% auto 0;
+	margin: 100px auto 0;
 }
 
 .banner_btm {
@@ -290,317 +295,56 @@ button:focus {
 	color:#09357b;  
 }
 
-.product_sec {
-	padding: 60px 0 50px;
+.slide {
+    width: 350px;
+    min-height: 465px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+       box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    outline: none;
+    margin: 0 15px;
 }
 
+.slide_btm img {
+    width: 70px;
+    margin: 0 auto 10px;
+}
 
-.productsFront .slick-track {
-            margin-left: -150px;
-        }
+.slide_btm h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
 
-        @media (max-width: 600px) {
-            .productsFront .slick-track {
-                margin-left: 0;
-            }
-        }
+.slide_btm p {
+    font-size: 16px;
+}
 
-        .productsFront .cards {
-            max-width: 1600px;
-            margin-left: auto;
-            margin-right: auto;
-            min-height: 600px;
-        }
+.slider .slick-list {
+    padding-top:20px !important;
+    padding-bottom:20px !important;
+    outline: 0;
+}
 
-        .productsFront .cards__link {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 99;
-        }
+.slide_btm {
+    padding: 20px 15px;
+}
 
-        .productsFront .cards__item,
-        .productsFront .cards .item {
-            padding: 60px 10px;
-            position: relative;
-        }
+.slide.slick-slide:not(.slick-active){
+    transform: scale(0.6);
+    transform-origin: center right;
+    margin-left: 0;
+}
 
-        .productsFront .cards__item:after,
-        .productsFront .cards .item:after {
-            content: "";
-            position: absolute;
-            bottom: 30px;
-            left: 0;
-            right: 0;
-            margin: auto;
-            width: 40px;
-            height: 7px;
-            border-radius: 99px;
-            background: #ffcc00;
-            z-index: 10;
-            transition: 0.25s;
-        }
+.slider .slick-slide.slick-active + .slick-slide:not(.slick-active) {
+    transform-origin: center left;
+    margin-left: 15px;
+}
 
-        .productsFront .cards__item:hover:after,
-        .productsFront .cards .item:hover:after {
-            background: #00aece;
-        }
+.product_sec {
+    padding: 70px 0 60px;
+}
 
-        .productsFront .cards__item__card,
-        .productsFront .cards__item .card,
-        .productsFront .cards .item__card,
-        .productsFront .cards .item .card {
-            width: 280px;
-            padding-bottom: 161.9048%;
-            position: relative;
-            border-radius: 12px;
-            box-shadow: 0 0 35px -5px rgba(0, 0, 0, 0.15);
-            background-position: center center;
-            background-size: cover;
-            transition: 0.25s;
-            overflow: hidden;
-        }
-
-        .productsFront .cards__item__card__logo,
-        .productsFront .cards__item .card__logo,
-        .productsFront .cards .item__card__logo,
-        .productsFront .cards .item .card__logo {
-            width: 100px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            margin-top: -40px;
-            z-index: 8;
-        }
-
-        .productsFront .cards__item__card__logo img,
-        .productsFront .cards__item .card__logo img,
-        .productsFront .cards .item__card__logo img,
-        .productsFront .cards .item .card__logo img {
-            width: 100%;
-        }
-
-        .productsFront .cards__item__card__content,
-        .productsFront .cards__item__card .content,
-        .productsFront .cards__item .card__content,
-        .productsFront .cards__item .card .content,
-        .productsFront .cards .item__card__content,
-        .productsFront .cards .item__card .content,
-        .productsFront .cards .item .card__content,
-        .productsFront .cards .item .card .content {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            right: 0;
-            min-height: 100%;
-            margin-top: -80px;
-            background: transparent;
-            z-index: 10;
-            text-align: center;
-            transition: 0.25s;
-        }
-
-        .productsFront .cards__item__card__content__title,
-        .productsFront .cards__item__card .content__title,
-        .productsFront .cards__item .card__content__title,
-        .productsFront .cards__item .card .content__title,
-        .productsFront .cards .item__card__content__title,
-        .productsFront .cards .item__card .content__title,
-        .productsFront .cards .item .card__content__title,
-        .productsFront .cards .item .card .content__title {
-            margin: 0;
-            font-size: 28px;
-            font-weight: bold;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.71;
-            letter-spacing: 0.08px;
-            text-align: center;
-            color: #ffffff;
-            transition: 0.25s color;
-            padding: 20px 20px;
-            min-height: -80px;
-        }
-
-        .productsFront .cards__item__card__content__desc,
-        .productsFront .cards__item__card .content__desc,
-        .productsFront .cards__item .card__content__desc,
-        .productsFront .cards__item .card .content__desc,
-        .productsFront .cards .item__card__content__desc,
-        .productsFront .cards .item__card .content__desc,
-        .productsFront .cards .item .card__content__desc,
-        .productsFront .cards .item .card .content__desc {
-            color: transparent;
-            transition: 0.25s;
-            padding: 0 20px 20px 20px;
-        }
-
-        .productsFront .cards__item__card__content__img,
-        .productsFront .cards__item__card .content__img,
-        .productsFront .cards__item .card__content__img,
-        .productsFront .cards__item .card .content__img,
-        .productsFront .cards .item__card__content__img,
-        .productsFront .cards .item__card .content__img,
-        .productsFront .cards .item .card__content__img,
-        .productsFront .cards .item .card .content__img {
-            opacity: 0;
-            transform: scaleY(0);
-            transition: 0.25s;
-            height: auto;
-            max-height: 0;
-            width: 100%;
-        }
-
-        .productsFront .cards__item__card:hover .card__content,
-        .productsFront .cards__item__card:hover .content,
-        .productsFront .cards__item__card:focus .card__content,
-        .productsFront .cards__item__card:focus .content,
-        .productsFront .cards__item .card:hover .card__content,
-        .productsFront .cards__item .card:hover .content,
-        .productsFront .cards__item .card:focus .card__content,
-        .productsFront .cards__item .card:focus .content,
-        .productsFront .cards .item__card:hover .card__content,
-        .productsFront .cards .item__card:hover .content,
-        .productsFront .cards .item__card:focus .card__content,
-        .productsFront .cards .item__card:focus .content,
-        .productsFront .cards .item .card:hover .card__content,
-        .productsFront .cards .item .card:hover .content,
-        .productsFront .cards .item .card:focus .card__content,
-        .productsFront .cards .item .card:focus .content {
-            top: 0;
-            margin-top: 0;
-            background: #fff;
-        }
-
-        .productsFront .cards__item__card:hover .card__content__img,
-        .productsFront .cards__item__card:hover .content__img,
-        .productsFront .cards__item__card:focus .card__content__img,
-        .productsFront .cards__item__card:focus .content__img,
-        .productsFront .cards__item .card:hover .card__content__img,
-        .productsFront .cards__item .card:hover .content__img,
-        .productsFront .cards__item .card:focus .card__content__img,
-        .productsFront .cards__item .card:focus .content__img,
-        .productsFront .cards .item__card:hover .card__content__img,
-        .productsFront .cards .item__card:hover .content__img,
-        .productsFront .cards .item__card:focus .card__content__img,
-        .productsFront .cards .item__card:focus .content__img,
-        .productsFront .cards .item .card:hover .card__content__img,
-        .productsFront .cards .item .card:hover .content__img,
-        .productsFront .cards .item .card:focus .card__content__img,
-        .productsFront .cards .item .card:focus .content__img {
-            opacity: 1;
-            transform: scaleY(1);
-            max-height: 300px;
-            height: auto;
-            object-fit: cover;
-        }
-
-        .productsFront .cards__item__card:hover .card__content__title,
-        .productsFront .cards__item__card:hover .content__title,
-        .productsFront .cards__item__card:focus .card__content__title,
-        .productsFront .cards__item__card:focus .content__title,
-        .productsFront .cards__item .card:hover .card__content__title,
-        .productsFront .cards__item .card:hover .content__title,
-        .productsFront .cards__item .card:focus .card__content__title,
-        .productsFront .cards__item .card:focus .content__title,
-        .productsFront .cards .item__card:hover .card__content__title,
-        .productsFront .cards .item__card:hover .content__title,
-        .productsFront .cards .item__card:focus .card__content__title,
-        .productsFront .cards .item__card:focus .content__title,
-        .productsFront .cards .item .card:hover .card__content__title,
-        .productsFront .cards .item .card:hover .content__title,
-        .productsFront .cards .item .card:focus .card__content__title,
-        .productsFront .cards .item .card:focus .content__title {
-            font-size: 26px;
-            font-weight: bold;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.85;
-            letter-spacing: 0.07px;
-            text-align: center;
-            color: #07196b;
-        }
-
-        .productsFront .cards__item__card:hover .card__content__desc,
-        .productsFront .cards__item__card:hover .content__desc,
-        .productsFront .cards__item__card:focus .card__content__desc,
-        .productsFront .cards__item__card:focus .content__desc,
-        .productsFront .cards__item .card:hover .card__content__desc,
-        .productsFront .cards__item .card:hover .content__desc,
-        .productsFront .cards__item .card:focus .card__content__desc,
-        .productsFront .cards__item .card:focus .content__desc,
-        .productsFront .cards .item__card:hover .card__content__desc,
-        .productsFront .cards .item__card:hover .content__desc,
-        .productsFront .cards .item__card:focus .card__content__desc,
-        .productsFront .cards .item__card:focus .content__desc,
-        .productsFront .cards .item .card:hover .card__content__desc,
-        .productsFront .cards .item .card:hover .content__desc,
-        .productsFront .cards .item .card:focus .card__content__desc,
-        .productsFront .cards .item .card:focus .content__desc {
-            font-size: 16px;
-            font-weight: 500;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.38;
-            letter-spacing: 0.1px;
-            text-align: center;
-            color: #0a0f3f;
-        }
-
-        .productsFront .cards__item__card:hover,
-        .productsFront .cards__item__card:focus,
-        .productsFront .cards__item .card:hover,
-        .productsFront .cards__item .card:focus,
-        .productsFront .cards .item__card:hover,
-        .productsFront .cards .item__card:focus,
-        .productsFront .cards .item .card:hover,
-        .productsFront .cards .item .card:focus {
-            padding-bottom: 180%;
-            margin-top: -10%;
-        }
-
-        .productsFront .cards__item__card:after,
-        .productsFront .cards__item .card:after,
-        .productsFront .cards .item__card:after,
-        .productsFront .cards .item .card:after {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            content: "";
-            box-shadow: 0 0 35px -5px rgba(0, 0, 0, 0.15);
-            opacity: 0.9;
-            border-radius: 12px;
-            background-image: radial-gradient(circle at 57% 46%, #0058e4, #09357b);
-        }
-
-        .productsFront .slick-slide {
-            transition: 0.25s;
-            transform-origin: 50% 50%;
-        }
-
-        .productsFront .slick-slide.slick-active .item__card {
-            transform: scale(1);
-        }
-
-        .productsFront .slick-slide:not(.slick-active) {
-            transform: scale(0.6);
-            transform-origin: center right;
-            margin-left: 0;
-        }
-
-        .productsFront .slick-slide.slick-active+.slick-slide:not(.slick-active),
-        .productsFront .slick-slide.slick-active+.slick-slide:not(.slick-active)+.slick-slide:not(.slick-active) {
-            transform-origin: center left;
-        }
-
-
-   
-        .travel {
+.travel {
         	padding: 70px 0 100px;
         }
 
