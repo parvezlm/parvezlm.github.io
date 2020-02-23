@@ -4,6 +4,16 @@
 	}
 }
 
+@media (max-width: 1367px) {
+	.form_container {
+    	padding: 90px 15px 0;
+	}
+
+	.signupForm_container {
+    	padding-bottom: 40px;
+	}
+}
+
 @media (max-width: 1199px){
 	.banner h1 {
 		font-size: 44px;
@@ -22,6 +32,19 @@
 		display: none;
 	}
 
+	.button p {
+		margin: 0;
+		text-align: right;
+		margin-right: 15px;
+	}
+
+	.form_tp {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.form_tp .navbar-brand {
+    width: 120px;
+	}
 }
 
 @media (max-width: 991px){
@@ -118,6 +141,19 @@
 .profsnl {
     padding: 60px 0 60px;
 }
+
+.form_container {
+    padding: 70px 15px 0;
+}
+
+.signupForm_container {
+    padding-bottom: 40px;
+}
+
+.form_container form {
+    background: #fff;
+    padding: 45px 40px
+	}
 }
 
 @media (max-width: 767px){
@@ -164,6 +200,9 @@
     font-size: 34px;
     }
 
+    .bg_color {
+    display: none;
+	}
 }
 
 @media (max-width: 575px){
@@ -295,6 +334,23 @@ footer {
 
     .profsnl {
     padding: 40px 0 40px;
+}
+
+.button {
+	display: none;
+}
+.form_container form {
+    padding: 35px 15px;
+}
+
+.crt_box {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.form_container form .form-control {
+	height: 38px;
+}
 }
 
 }

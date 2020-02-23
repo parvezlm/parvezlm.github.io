@@ -34,34 +34,6 @@ $('.hamburger').click(function() {
     }
 });
 
-
-
- $('.slider').slick({
-     dots: false,
-     arrows: false,
-     infinite: true,
-     speed: 300,
-     slidesToShow: 3,
-     slideToScroll:1,
-     centerMode: true,
-     variableWidth: true,
-     responsive: [{
-             breakpoint: 1200,
-             settings: {
-                 slidesToShow: 3,
-                 slidesToScroll: 1,
-             }
-         },
-         {
-             breakpoint: 600,
-             settings: {
-                 slidesToShow: 1,
-                 slidesToScroll: 1
-             }
-         },
-     ]
- });
-
  $('.scrollMenu a.link').click(function(e) {
       e.preventDefault();
      var crElm = $(this).attr('data-section');
@@ -89,5 +61,48 @@ $(window).on('scroll',function() {
     var pos = $(window).height()
     if($(window).scrollTop() == 0) {
         $('.scrollMenu a').removeClass('active');
+    }
+});
+
+
+$('.option_tp input').click(function() {
+    if($(this).is(':checked')) {
+        $('.optbtm input').prop('checked',true);
+    }else {
+        $('.optbtm input').prop('checked',false);
+    }
+});
+
+$('.optbtm input').click(function() {
+    // var lnth = $('.optbtm input:checked').length;
+    if($('.optbtm input:checked').length < 12) {
+       $('.option_tp input').prop('checked',false); 
+    }else {
+        $('.option_tp input').prop('checked',true); 
+    }
+
+    alert(elmin);
+});
+
+$('.password').on('keyup',function() {
+    if($(this).val().length > 8) {
+        $('.validation-checker i').addClass('active');
+        $('.validation-checker span').addClass('active');
+    }else {
+        $('.validation-checker i').removeClass('active');
+        $('.validation-checker span').removeClass('active');
+    }
+})
+
+
+// fa fa-eye-slash
+
+$('.showhidePass').click(function() {
+    if($('.password').attr('type') == 'password') {
+        $(this).prevAll('.password').attr('type','text');
+        $(this).find('i').addClass('fa-eye-slash');
+    }else {
+        $(this).prevAll('.password').attr('type','password');
+        $(this).find('i').removeClass('fa-eye-slash');
     }
 });
