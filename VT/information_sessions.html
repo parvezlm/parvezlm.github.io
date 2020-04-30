@@ -48,11 +48,12 @@
 
     </header>
 
-    <section class="virtual  boxs">
+    <section class="virtual boxs">
         <div class="prolftSlick prolftSlickInformation boxs">
             <!-- for video -->
             <div class="virtualMain boxs">
-                <video id="bgvid" playsinline autoplay muted loop src="video/information.mp4" class="indexMainVideo">
+                <video id="bgvid" playsinline autoplay muted loop class="indexMainVideo">
+                    <source src="video/information.mp4" type="video/mp4">
                     <!-- 
                   - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
                   WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
