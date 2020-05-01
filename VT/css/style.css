@@ -2122,3 +2122,14 @@ video::-webkit-media-controls {
 [data-aos^=zoom][data-aos^=zoom] {
     opacity: 1!important;
 }
+
+.canvas,
+.video {
+height: 100%;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%;
+background: #000;
+z-index: 5;
+}

@@ -118,6 +118,60 @@ $(document).ready(function() {
 // Navbar Button Style End
 
 
+// VideoPlayback 
+var vid = document.getElementById("bgvid");
+var pauseButton = document.querySelector("#polina button");
+
+if (window.matchMedia('(prefers-reduced-motion)').matches) {
+    vid.removeAttribute("autoplay");
+    vid.pause();
+    pauseButton.innerHTML = "Paused";
+}
+
+function vidFade() {
+  vid.classList.add("stopfade");
+}
+
+vid.addEventListener('ended', function()
+{
+// only functional if "loop" is removed 
+vid.pause();
+// to capture IE10
+vidFade();
+}); 
+
+
+$(document).on('click', 'video', function(){
+    var id = $(this).data('id');
+    vid = document.getElementById("bgvid"+id);
+  vid.classList.toggle("stopfade");
+  
+  if (vid.paused) {
+    // vid.play();
+    // $(".polinaPlay"+id).hide()
+    // pauseButton.innerHTML = "Pause";
+  } else {
+    vid.pause();
+    $(".polinaPlay"+id).show()
+    // pauseButton.innerHTML = "play";
+  }
+})
+
+$(document).on('click', '.virtualArea button', function(){
+    var id = $(this).data('id');
+    vid = document.getElementById("bgvid"+id);
+  vid.classList.toggle("stopfade");
+  
+  if (vid.paused) {
+    vid.play();
+    $(".polinaPlay"+id).hide()
+    // pauseButton.innerHTML = "Pause";
+  } else {
+    vid.pause();
+    $(".polinaPlay"+id).show()
+    // pauseButton.innerHTML = "play";
+  }
+})
 
 // VideoPlayback ended
 
@@ -352,3 +406,25 @@ AOS.init({
   });
 // animation end 
 
+
+
+var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);
+
+if (isIOS) {
+
+    var canvasVideo = new CanvasVideoPlayer({
+        videoSelector: '.video',
+        canvasSelector: '.canvas',
+        timelineSelector: false,
+        autoplay: true,
+        makeLoop: true,
+        pauseOnClick: false,
+        audio: false
+    });
+
+}else {
+
+    // Use HTML5 video
+    document.querySelectorAll('.canvas')[0].style.display = 'none';
+
+}   
