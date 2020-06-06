@@ -1,0 +1,291 @@
+@media(max-width:1366px) {
+    .banner {
+        padding: 130px 0 120px;
+    }
+}
+
+@media(max-width:1199px) {
+    .banner_inner {
+        padding-left: 80px;
+    }
+
+    .menu li {
+        padding: 0 10px;
+    }
+
+    .header_menu_box {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .wraper {
+        padding-left: 54px;
+        padding-right: 54px;
+    }
+
+    .allServce_row p br {
+        display: none;
+    }
+
+    .padd_rht {
+        padding-right: 0;
+    }
+
+    .our_service_rht {
+        padding: 50px 15px 65px 50px;
+    }
+
+    .challenge_btn {
+        text-align: center;
+    }
+
+    .all_services {
+        padding-top: 41px;
+        padding-bottom: 60px;
+    }
+
+    .our_service {
+        padding-bottom: 41px;
+    }
+
+    .product .col {
+        max-width: 44%;
+        padding: 0 15px;
+    }
+    
+    .footer_lft h2 br {
+        display: none;
+    }
+
+    .footer_rht {
+        padding-left: 15px;
+    }
+
+    .footer_lft {
+        padding-right: 15px;
+    }
+    
+}
+
+@media(max-width:991px) {
+    .banner_inner {
+        padding: 0 15px;
+    }
+
+    .banner_inner .content_box {
+        max-width: 100%;
+    }
+
+    .logo_list li {
+        padding: 0 15px;
+    }
+
+    .banner {
+        padding: 100px 0 90px;
+    }
+
+    .wraper {
+        padding: 0 15px;
+    }
+
+    .product .col {
+        max-width: 40%;
+    }
+
+    .footer_lft p br {
+        display: none;
+    }
+
+    .common_heading1 {
+        font-size: 26px;
+    }
+
+    footer {
+        padding: 60px 0 58px;
+    }
+
+    .allServce_row h2 + p {
+        margin-bottom: 60px;
+    }
+
+    .header_menu_left {
+        position: fixed;
+        width: 240px;
+        height: 100%;
+        background: #fff;
+        top: 0;
+        left: -240px;
+        padding-top: 80px;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 20px 12px rgba(0,0,0,0.4);
+    }
+
+    .menu li {
+        display: block;
+        padding: 0;
+    }
+
+    .menu li a {
+        color:#0d2481;
+        display: block;
+         padding: 5px 15px 5px 25px; 
+    }
+
+    .header_menu_box {
+        justify-content: flex-end;
+    }
+
+    .nav_icon {
+        display: block;
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .logo_list {
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    .logo_list li {
+        padding: 0 35px;
+        margin-bottom: 30px;
+    }
+
+    .sevices_col_lft,
+    .sevices_col_rht,
+    .video_box,
+    .footer_lft,
+    .footer_rht {
+        width: 100%;
+    }
+
+    .servies_row,
+    .allServce_row,
+    .footer_row {
+    display: block;
+    }
+
+    .allServce_row .sevices_col_lft {
+        margin-bottom: 70px;
+    }
+
+    .footer_lft {
+        padding-bottom: 70px;
+    }
+
+    .footer_rht {
+        text-align: center;
+        padding: 0;
+    }
+
+    .ftr_contact_btn {
+        margin: 0 auto;
+    }
+
+    .phone_icon {
+        margin-left:0;
+    }
+
+    .our_service_rht {
+        padding: 40px 0px 55px 0px;
+    }
+
+    .our_service_rht_inr {
+        padding: 0 25px;
+    }
+
+    .banner_inner .content_box {
+        padding-left: 75px;
+    }
+
+    .banner {
+        padding: 60px 0 50px;
+    } 
+
+    .header_menu_right {
+        display: none;
+    }
+
+    .our_service {
+        padding-bottom: 30px;
+    }
+
+    .all_services {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .content_box h2 {
+        font-size: 32px;
+    }
+
+    .our_service_rht h2 {
+        margin: 18px 0 55px;
+    }
+    
+}
+
+@media(max-width:560px) {
+    .content_box h2 br {
+        display: none;
+    }
+
+    .common_heading1 {
+        font-size: 24px;
+    }
+
+    .accordians_row {
+        display: block;
+    }
+
+    .col {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .challenge_btn {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:414px) {
+    .content_box h2 {
+        font-size: 28px;
+    }
+
+    .content_box h2.left_line:before {
+        display: none;
+    }
+
+    .banner_inner .content_box {
+        padding: 28px 15px 42px 25px;
+    }
+
+    .logo_box img {
+        width: 200px;
+    }
+
+    .main {
+        margin-top: 65px;
+    }
+
+    .logo_list li {
+        padding: 0 6px;
+        margin-bottom: 20px;
+    }
+
+    .banner {
+        padding: 40px 0 40px;
+    }
+
+    .product .col {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .product {
+        display: block;
+    }
+}
