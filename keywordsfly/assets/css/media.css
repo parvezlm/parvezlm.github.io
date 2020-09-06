@@ -1,0 +1,274 @@
+@media(max-width:1366px) {
+    .header nav .menu li a {
+        padding:0 15px;
+    }
+}
+
+@media(max-width:1199px) {
+    .header {
+        padding: 10px 15px;
+    }
+
+    .header nav .menu li a {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+    .header_rht a {
+        font-size: 14px;
+    }
+
+    .keys_box p br {
+        display: none;
+    }
+
+    .keyword_box h4 {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width:991px) {
+    .header .menu {
+        display: none;
+    }
+
+    .hamburge_icon {
+        display: block;
+        top:3px;
+    }
+
+    .common_heading {
+        font-size: 48px;
+    }
+
+    .banner_lft h1 br {
+        display:none;
+    }
+
+    .banner {
+        padding-top:40px;
+    }
+
+    .inside_sec {
+        padding-top: 60px;
+    }
+
+    .inside_sec p br,
+    .about_inner p.subheading br,
+    .founder_inner p br {
+        display:none;
+    }
+
+    .keyword_solution {
+        color: #fff;
+        padding: 20px 0 40px;
+    }
+
+    .about {
+        padding-bottom: 10px;
+    }
+
+    .bottom_shape {
+        bottom: -68px;
+    }
+
+    .trial_btn {
+        font-size: 20px;
+    }
+
+    .testimonial_slider .slide .content p {
+        font-size: 32px;
+    }
+    
+}
+
+@media(max-width:767px) {
+    .banner_rht  img {
+        max-width: 300px;
+        display: block;
+        margin:60px auto 0;
+    }
+
+    .header {
+        padding: 5px 0px;
+    }
+
+    .main {
+        margin-top: 68px;
+    }
+
+    .common_heading {
+        font-size: 44px;
+    }
+
+    .keyworkd_sol_inner,
+    .keyworkd_sol_inner .text-right {
+        text-align: center!important;
+    }
+
+    .icon_box,.key_rht .icon_box {
+        margin:0 auto;
+    }
+
+    .keyworkd_sol_inner p {
+        margin-bottom:60px;
+    }
+
+    .keyword_solution {
+        padding-top: 0;
+    }
+
+    .key_rht  {
+        text-align: center;
+        padding-top: 60px;
+    }
+    .about {
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .choose_inner .col-md-4 {
+        margin-bottom:20px;
+    }
+
+    .choose_box p,
+    .community_inner {
+        text-align: center;
+    }
+
+    .more_kewords  {
+        padding-top:0;
+    }
+
+    .choose_sec {
+        padding-bottom: 40px;
+    }
+
+    .community_inner h2 {
+        margin-bottom: 30px;
+    }
+
+    .testimonial_slider .slide .content p {
+        font-size: 24px;
+    }
+
+    .testimonial_slider_box {
+        padding:60px 40px;
+        margin-top: 50px;
+    }
+
+    .testimonial_slider .slick-dots {
+        bottom: -45px;
+    }
+
+    .testimonial_slider .slick-next {
+        top: -23px;
+        right: initial;
+        left: 50px;
+    }
+
+    .testimonial_slider .slick-prev {
+        left: 0;
+        top: -22px;
+    }
+
+    .testimonial_slider .slide .content p span {
+        position: relative;
+        width: 40px;
+        display: block;
+        margin: 0 auto;
+       }
+
+
+       .testimonials_inner h3 {
+           margin-top: 60px;
+       }
+
+       .more_treffic {
+           text-align: center;
+       }
+
+       .more_traffic_inr h2 {
+           margin-bottom:30px;
+       }
+
+       .footer_iner select{
+           margin-bottom:20px;
+       }
+
+       .founder_rht {
+           padding-top: 30px;
+       }
+    
+}
+
+@media(max-width:414px) {
+    .header nav .navbar-brand {
+        width: 110px;
+    }
+
+    .header_rht a {
+        font-size: 12px;
+    }
+
+    .header {
+        padding: 0px 0px;
+    }
+
+    .main {
+        margin-top: 56px;
+    }
+
+    .banner {
+        padding-top: 20px;
+    }
+
+    .keyword_solution {
+        padding: 20px 0 0px;
+    }
+
+    .about_inner .divider + p {
+        margin-bottom: 20px;
+    }
+
+    .common_heading2  {
+        font-size: 30px;
+    }
+
+    .keyword_box .divider + p {
+        margin-bottom:20px;
+    }
+
+    .community_inner h2 img {
+        width: 40px;
+    }
+
+    .community_inner {
+        padding: 50px 0 30px;
+    }
+
+    .testimonial_slider .slide .content p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .testimonial_slider  {
+        padding-top: 30px;
+    }
+
+    .testimonials_sec {
+        padding: 80px 0 60px;
+    }
+
+    .founder_rht p {
+        font-size: 17px;
+    }
+
+    .common_heading {
+        font-size: 34px;
+    }
+    .subheading {
+        font-size: 17px;
+    }
+}
