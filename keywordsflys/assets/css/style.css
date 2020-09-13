@@ -44,7 +44,7 @@ a {
 }
 
 .main {
-    margin-top: 77px;
+    margin-top: 61px;
 }
 
 .divider {
@@ -199,6 +199,10 @@ a {
 .header_index {
     z-index: 9999;
     box-shadow: none;
+}
+
+.navbar {
+    padding: 0;
 }
 /* ==================header end ==================*/
 

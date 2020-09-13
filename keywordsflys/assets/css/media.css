@@ -90,14 +90,6 @@
         margin:60px auto 0;
     }
 
-    .header {
-        padding: 5px 0px;
-    }
-
-    .main {
-        margin-top: 68px;
-    }
-
     .common_heading {
         font-size: 44px;
     }
@@ -215,14 +207,6 @@
 
     .header_rht a {
         font-size: 12px;
-    }
-
-    .header {
-        padding: 0px 0px;
-    }
-
-    .main {
-        margin-top: 56px;
     }
 
     .banner {
