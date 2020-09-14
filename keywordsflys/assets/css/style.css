@@ -44,7 +44,7 @@ a {
 }
 
 .main {
-    margin-top: 60px;
+    margin-top: 61px;
 }
 
 .divider {
@@ -267,6 +267,9 @@ a {
     background-color: #3b5998;
     padding: 70px 0 60px;
     color: #fff;
+    min-height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
 }
 
 .banner_lft h1 {
@@ -496,7 +499,7 @@ a {
 
 .community_sec .top_shape {
     position: relative;
-    top: -19px;
+    top: -17px;
     height: 21px;
     transform: rotate(180deg);
 }
