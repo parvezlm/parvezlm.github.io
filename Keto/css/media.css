@@ -1,0 +1,2471 @@
+@media(max-width:1920px) {
+    .keto_mid h1 {
+        font-size: 85px;
+        padding-top: 54px;
+        line-height: 94px;
+    }
+
+    .keto_bottom form {
+        padding-top: 38px;
+    }
+
+
+    /*
+    .form_wraper {
+        padding-top: 100px;
+    }
+*/
+}
+
+@media(max-width:1680px) {
+    .keto_mid h1 {
+        font-size: 80px;
+        padding-top: 50px;
+        line-height: 96px;
+    }
+
+    .keto_bottom form {
+        padding-top: 38px;
+        |
+    }
+}
+
+@media(max-width:1460px) {
+    .keto_mid h1 {
+        font-size: 85px;
+        padding-top: 62px;
+        line-height: 90px;
+    }
+
+    .keto_bottom form {
+        padding-top: 38px;
+    }
+
+    .form_wraper {
+        padding-top: 0;
+    }
+
+    .veggie_desk {
+        height: 108vh;
+    }
+}
+
+@media(max-width:1360px) {
+    .keto_mid h1 {
+       font-size: 77px;
+       padding-top: 47px;
+       line-height: 88px;
+    }
+
+    .keto_bottom form {
+        padding-top: 38px
+    }
+
+    .keto_top a img {
+        width: 40%;
+    }
+
+    /*    activity page*/
+    .optLi {
+        padding-bottom: 35px;
+    }
+
+    .phyinner_contet {
+        padding: 40px 0 39px;
+    }
+
+    .physics_desk {
+        padding: 20px 0 0;
+
+    }
+
+    .optLi a {
+        padding: 11px 22px;
+        margin: 8px 18px 8px 0;
+
+    }
+
+    /*    activity page end*/
+
+    /*    meat page*/
+    .phyinner_contet {
+        padding: 26px 0 35px;
+    }
+    
+    .meatinner_content {
+        padding-bottom:15px;
+    }
+
+    /*    meat page end*/
+
+    /*    faq page*/
+    .faq_desk {
+        height: 152vh;
+    }
+
+    /*    faq page end*/
+
+
+    /*    hurray page*/
+    .hurray_desk {
+        height: 114vh;
+    }
+
+    /*    hurray page end*/
+
+    /*    payment page*/
+    .pay_desk {
+        height: 117vh;
+    }
+
+    /*    payment page end*/
+
+
+
+    /*    contact page*/
+    .contact_f .form-group textarea {
+        margin-top: 12px;
+    }
+
+    .contact_f .form-group input[type='text'] {
+        margin-top: 18px;
+    }
+
+    .form_wraper {
+        padding-top: 0;
+    }
+
+    /*    contact page end*/
+
+    /*    veggie page*/
+
+    .veggie_desk {
+        height: 138vh;
+    }
+
+    /*    veggie page end*/
+
+    .measure_desk {
+        height: 115vh;
+    }
+
+    .measur_content {
+        padding-top: 25px;
+    }
+
+    .topBtns ul li input[type="radio"]:checked + label,
+    .topBtns ul li input[type="radio"]:not(:checked) + label {
+        margin-bottom: 32px;
+    }
+
+    .meat_box_in input[type="radio"]:checked + label:before,
+    .meat_box_in input[type="radio"]:not(:checked) + label:before,
+    .meat_box_in input[type="radio"]:checked + label:after {
+        top: 9px;
+    }
+}
+
+@media(max-width:1199px) {
+    .keto_mid h1:after {
+        right: 170px;
+    }
+
+    .select_g {
+        top: 11px;
+        left: 35px;
+
+    }
+
+    .keto_main {
+        height: 100vh;
+    }
+
+    .keto_mid h1 {
+        padding-top: 32px;
+        line-height: 95px;
+        font-size: 75px;
+
+    }
+
+    .keto_mid h1:before {
+        left: 178px;
+    }
+
+    /*    activity page*/
+    .physics_desk2 {
+        padding-top: 65px;
+    }
+
+    .physics_desk_inr h2 {
+        font-size: 80px;
+    }
+
+    .phyinner_contet p {
+        font: 22px;
+    }
+
+    .phyinner_contet {
+        padding: 22px 0 30px;
+    }
+
+    .optLi a {
+        margin: 10px 18px 10px 0;
+    }
+
+    .optLi {
+        padding-bottom: 41px;
+    }
+
+    /*    activity end*/
+
+    /*    measurement page*/
+
+    .measure_desk {
+        height: 100vh;
+    }
+
+    .measur_f .col-sm-5 {
+        width: 50.666667%;
+    }
+
+    .measur_content {
+        padding-top: 22px;
+    }
+
+    .mesur_fbox a {
+        padding: 10px 70px 13px;
+    }
+
+    .measure_desk_in h2 {
+        font-size: 75px;
+    }
+
+    .measure_desk {
+        padding: 35px 0 13px;
+    }
+
+    .measure_desk .steps a {
+        font-size: 22px;
+    }
+
+    /*    measurement page end*/
+
+    /*    hurray page*/
+    .hurray_cont_int:after {
+        right: -55px;
+        top: 60px;
+    }
+
+    .hurray_cont_int h4 {
+        padding-bottom: 15px;
+    }
+
+    .hurray_desk {
+        height: 100vh;
+        padding: 23px 0;
+    }
+
+    /*    hurray page end*/
+
+    /*    payment page*/
+    .physics_desk_inr h2 {
+        font-size: 45px;
+    }
+
+    /*
+    .hurray_desk_in h2 {
+        font-size: 80px;
+    }
+*/
+
+    .pay_desk {
+        height: 120vh;
+    }
+
+    .pay_content h4 span {
+        font-size: 82px;
+    }
+
+    /*    payment page end*/
+
+    /*    card payment page*/
+
+    .price_wrap {
+        right: 185px;
+    }
+
+    .price_wrap h1 {
+        font-size: 120px;
+    }
+
+    /*    card payment page end*/
+
+    /*    contact page*/
+    .contact_f .form-group textarea {
+        margin-top: 0px;
+    }
+
+    .form_wraper h2:after {
+        right: 21%;
+        content: url(../img/contactRarrowRes.png);
+        top: 0;
+    }
+
+    .contact_f .form-group input[type='text'] {
+        margin-top: 0;
+    }
+
+    .form_wraper h2:before {
+        content: url(../img/contactLarrRes.png);
+        left: 23%;
+        top: 0;
+    }
+
+    .send_btn {
+        padding: 5px 0;
+    }
+
+    .form_wraper h2 {
+        font-size: 55px;
+    }
+
+    .form_wraper {
+        padding-top: 0;
+    }
+
+    /*    contact page end*/
+
+    /*    veggie page*/
+    .veggiLipadd {
+        padding-bottom: 0;
+    }
+
+    .veggie_desk {
+        padding-top: 40px;
+        height: 120vh;
+    }
+
+    /*    veggie page end*/
+
+    /*    meat page*/
+    .meat_desk {
+        padding-top: 65px;
+    }
+
+    /*    meat page end*/
+
+    .optLi .optForm ul {
+        width: 62%;
+    }
+
+    .meat_box_in input[type="radio"]:checked + label:before,
+    .meat_box_in input[type="radio"]:not(:checked) + label:before,
+    .meat_box_in input[type="radio"]:checked + label:after,
+    .meat_box_in input[type="radio"]:not(:checked) + label:after {
+        top: 10px;
+    }
+
+    .meat_box h4 {
+        margin-top: 0;
+    }
+
+    .veggie_box_in input[type="checkbox"]:checked + label:before,
+    .veggie_box_in input[type="checkbox"]:not(:checked) + label:before,
+    .veggie_box_in input[type="checkbox"]:checked + label:after,
+    .veggie_box_in input[type="checkbox"]:not(:checked) + label:after {
+        top: 9px;
+    }
+}
+
+
+
+@media(max-width:991px) {
+    .keto_mid h1:after {
+        right: 60px;
+    }
+
+    .select_g {
+        font-size: 22px;
+        left: 5px;
+    }
+
+    .keto_mid h1:before {
+        left: 80px;
+    }
+
+
+    /*    physically*/
+    .physics_desk_inr2 {
+        padding-top: 12px;
+    }
+
+    /*    physically end*/
+
+    /*    measurement page*/
+    .measur_f .col-sm-5 {
+        width: 65.666667%;
+    }
+
+    /*    measurement page end*/
+
+    /*    faq page*/
+    .faq_desk_inner h2:before {
+        right: 119px;
+        top: 82px;
+    }
+
+    .faq_desk_inner h2:after {
+        right: 3px;
+        top: 65px
+    }
+
+    .faq_desk_inner h2 {
+        font-size: 65px;
+    }
+
+    /*    faq page end*/
+
+    /*    hurray page*/
+    .hurray_desk {
+        height: 100vh;
+    }
+
+    .physics_desk_inr h2 {
+        font-size: 75px;
+    }
+
+    .hurray_content h3 {
+        font-size: 30px;
+    }
+
+
+    .hurray_content .col-sm-8 {
+        width: 87%;
+    }
+
+    .hurray_cont_int h4 {
+        padding-left: 187px;
+        font-size: 52px;
+    }
+
+    .hurray_cont_int .form-control {
+        width: 528px;
+    }
+
+    .hurray_cont_int h4 {
+        padding-bottom: 15px;
+    }
+
+    /*    hurray page end*/
+
+    /*    payment page*/
+    .physics_desk_inr h2 {
+        font-size: 50px;
+    }
+
+    .pay_content h4 span {
+        font-size: 70px;
+    }
+
+    .pay_desk {
+        height: 131vh;
+    }
+
+    /*    payment page end*/
+
+    /*    card payment page*/
+    .price_wrap {
+        right: 50px;
+    }
+
+    .price_wrap h1 {
+        font-size: 95px;
+    }
+
+    /*    card payment page end*/
+
+    /*    contact page*/
+    .contact_inner {
+        background: url(../img/contactbg.png) no-repeat center 8%;
+        background-size: cover;
+
+    }
+
+    .form_wraper {
+        margin-top: -15px;
+    }
+
+    .form_wraper h2:before {
+        left: 16%;
+        top: 15px;
+    }
+
+    .form_wraper h2:after {
+        right: 10%;
+    }
+
+    .contact_f {
+        width: 83%
+    }
+
+    /*    contact page end*/
+
+    /*    veggie page*/
+    .veggieIn_content .steps {
+        margin-top: 15px;
+    }
+
+    .veggie_desk {
+        height: 125vh;
+    }
+
+    /*    veggie page end*/
+
+    .optLi .optForm ul {
+        width: 82%;
+    }
+    
+    .meat_desk {
+    padding-top: 63px;
+}
+     .physics_desk2 {
+        padding-top: 55px;
+    }
+}
+
+@media(max-width:768px) {}
+
+@media(max-width:767px) {
+    .header .hamburger {
+        display: block;
+        position: relative;
+        right: 28px;
+    }
+    
+    .select_g img {
+        width: 32px;
+    }
+
+    .select_g {
+        font-size: 17px;
+    }
+
+    .keto_mid h1 {
+        font-size: 65px;
+        line-height: 73px;
+        padding-top: 60px;
+    }
+
+    .keto_bottom form {
+        padding-top: 38px;
+    }
+
+    .keto_top a img {
+        width: 70%;
+    }
+
+    .keto_mid h1:after {
+        right: 10px;
+        top: -30px;
+    }
+
+    .keto_mid h1:before {
+        top: -30px;
+        left: 5px;
+    }
+
+    /*    meat page*/
+    .meatLi a {
+        padding: 11px 18px;
+        min-height: 85px;
+        width: 85px;
+    }
+
+    .meat_box {
+        padding-right: 0;
+    }
+
+    .meat_desk {
+        padding: 55px 0 0;
+    }
+
+    /*    meat page end*/
+
+    /*    measurement page*/
+
+    .measure_desk_in h2 {
+        margin-left: 11px;
+    }
+
+    .measur_f .noleft {
+        padding-left: 15px;
+    }
+
+    .measur_f .col-sm-5 {
+        width: 92.5%;
+    }
+
+    .measur_content .steps {
+        padding-left: 17px;
+    }
+
+    .topBtns ul li:nth-child(2) {
+        padding-right: 0;
+    }
+
+
+    /*    measurement page end*/
+
+    /*    faq page*/
+    .faq_desk_inner h2:before {
+        right: 205px;
+        top: 68px;
+        content: url(../img/farrow1767.png);
+
+    }
+
+    .faq_desk_inner h2:after {
+        right: 115px;
+        top: 42px;
+        content: url(../img/farrow2767.png);
+
+    }
+
+    .faq_desk_inner h2 {
+        font-size: 55px;
+    }
+
+    .faq_content {
+        padding-top: 30px;
+    }
+
+    .faq_content p img {
+        width: 8%;
+    }
+
+    .faq_content p {
+        font-size: 18px;
+        padding: 15px 0 15px;
+    }
+
+    .faq_content h3 {
+        font-size: 22px;
+    }
+
+    .faq_content h3:nth-child(6) {
+        padding: 15px 0;
+    }
+
+    .faq_desk {
+        height: 130vh;
+    }
+
+    /*    faq page end*/
+
+    /*    hurray page*/
+    .hurray_content .col-sm-8 {
+        width: 100%;
+    }
+
+    .hurray_desk {
+        height: 100vh;
+    }
+
+    .hurray_content h3 {
+        padding-top: 28px;
+        text-align: center;
+    }
+
+    .hurray_cont_int h4 {
+        font-size: 50px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .hurray_cont_int .form-control {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .hurray_cont_int:after {
+        right: -21px;
+        top: 40px;
+    }
+
+    .get_btn {
+        padding: 6px 61px 7px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 26px;
+    }
+
+    .hurray_cont_int h5 {
+        font-size: 23px;
+    }
+
+    /*    hurray page end*/
+
+    /*    pamyment page*/
+    .price_wrap h1 {
+        font-size: 40px;
+    }
+
+    .price_wrap h3 {
+        font-size: 18px;
+    }
+
+    .price_wrap h2 {
+        font-size: 28px;
+    }
+
+    .price_wrap {
+        top: -120px;
+        left: 15px;
+
+    }
+
+    .physics_desk_inr2 {
+        padding-top: 40px;
+    }
+
+    /*    pamyment page end*/
+
+    /*    contact page*/
+
+    .form_wraper h2:before {
+        left: 13%;
+    }
+
+    /*
+    .form_wraper h2:after {
+        right: 2%;
+    }
+*/
+
+
+    .contact_f {
+        width: 100%;
+    }
+
+    /*    contact page end*/
+
+    /*    veggie page*/
+    .veggie_desk {
+        padding-top: 0;
+    }
+
+    .veggie_desk_inr {
+        padding-top: 50px;
+    }
+
+    .veggie_desk_inr h2 {
+        font-size: 65px;
+    }
+
+    .veggieIn_content {
+        padding-bottom: 0;
+    }
+
+    .veggie_desk {
+        height: 120vh;
+    }
+
+    .meatLi .veggie_box_in a {
+        padding: 10px 20px;
+        min-height: 92px;
+        width: 92px;
+    }
+
+    .veggiLi a {
+        margin: 10px 14px 10px 0;
+    }
+
+    .veggieLi2 {
+        padding-bottom: 22px;
+    }
+
+    /*    veggie page end*/
+
+    .physics_desk2 {
+        padding-top: 27px;
+    }
+
+    .pay_desk {
+        height: 135vh;
+        padding-top: 131px;
+    }
+
+    .optLi .optForm ul {
+        width: 100%;
+    }
+
+    .optLi .optForm ul li {
+        width: 49%;
+    }
+
+    .optLi .optForm ul li input[type="radio"]:checked + label:before,
+    .optLi .optForm ul li input[type="radio"]:not(:checked) + label:before,
+    .optLi .optForm ul li input[type="radio"]:checked + label:after,
+    .optLi .optForm ul li input[type="radio"]:not(:checked) + label:after {
+        width: 100%;
+    }
+
+    .optLi .optForm ul li:nth-child(1) {
+        padding-right: 5px;
+    }
+
+    .optLi .optForm ul li:nth-child(2) {
+        padding-left: 5px;
+    }
+
+    .meat_box_in input[type="radio"]:checked + label:before,
+    .meat_box_in input[type="radio"]:not(:checked) + label:before,
+    .meat_box_in input[type="radio"]:checked + label:before,
+    .meat_box_in input[type="radio"]:not(:checked) + label:before,
+    .meat_box_in input[type="radio"]:checked + label:after,
+    .meat_box_in input[type="radio"]:not(:checked) + label:after {
+        width: 85px;
+        height: 85px;
+
+    }
+
+    .meatLi a img {
+        margin: 3px auto;
+    }
+    
+    
+.seure_link {
+    padding-top: 15px;
+}
+}
+
+@media(max-width:560px) {
+    
+   header.home_header {
+        background:transparent;
+    }
+    .keto_top a {
+        display: none;
+    }
+
+    .select_g {
+        display: none;
+    }
+
+    .keto_main {
+        background: url('../img/responback.png') no-repeat 100% 100%, #fff;
+        background-size: cover;
+        padding-bottom: 60px;
+        height: auto;
+    }
+
+    .keto_mid h1 {
+        padding-top: 70px;
+        font-size: 58px;
+        line-height: 73px;
+    }
+
+    .keto_mid h1 br {
+        display: none;
+        font-size: 70px;
+    }
+
+    .keto_mid h1:before,
+    .keto_mid h1:after {
+        top: 215px;
+    }
+
+    .keto_mid h1:before {
+        left: -15px;
+    }
+
+    .keto_bottom form {
+        display: none;
+    }
+
+    /*
+    .keto_mid {
+        padding-left: 108px;
+        padding-right: 120px;
+
+    }
+*/
+    .resKeto {
+        padding-top: 25px;
+        display: block;
+    }
+
+    .ketoBottomRes form {
+        display: block;
+    }
+
+    .resketo_inner {
+        padding: 0 25px;
+    }
+
+    [type="radio"]:checked + label:before,
+    [type="radio"]:not(:checked) + label:before {
+        border: 1px solid #f43e91;
+        width: 118px;
+        height: 118px;
+    }
+
+    [type="radio"]:checked + label:after,
+    [type="radio"]:not(:checked) + label:after {
+        background: #f43e91;
+        width: 118px;
+        height: 118px;
+    }
+
+    .bottomArr p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottomArr p img {
+        width: 70px;
+    }
+
+    .bottomArr p span {
+        color: #f43e91;
+        font-size: 20px;
+        font-family: 'LatoBold';
+        margin-top: 35px;
+        margin-left: 12px;
+    }
+
+    .bottomArr {
+        padding: 25px 0px;
+    }
+
+    .keto_mid h1:before {
+        content: url(../img/Resarrowdleft.png);
+    }
+
+    .keto_mid h1:after {
+        content: url(../img/ResarrowdRight.png);
+    }
+
+    .keto_bottom form p label img {
+        top: 18px;
+        left: 5px;
+    }
+
+    .keto_mid h1:before,
+    .keto_mid h1:after {
+        top: 140px;
+        transform: scale(0.8);
+    }
+
+    .keto_mid h1:after {
+        right: -15px;
+    }
+
+    /*    activity page*/
+    .physics_desk_inr {
+        display: none;
+    }
+
+    .physics_desk2 {
+        background: url(../img/phyresbg.png) no-repeat center 100%;
+        background-size: cover;
+    }
+
+    .physics_res_in h2,
+    .meat_res_in h2,
+    .measure_res_in h2,
+    .hurr_res_in h2,
+    .payment_res_inner h2,
+    .cpay_res_in h2,
+    .veggieRes_top h2 {
+        font-size: 96px;
+        font-family: 'LobsterBold';
+        font-style: italic;
+        color: #ffd600;
+        text-align: center;
+        margin-top:45px;
+    }
+
+    .physics_res_in {
+        padding: 50px 0 40px;
+    }
+    
+    .physics_res_in img,
+    .measure_res_in img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .physics_res_in p,
+    .meat_res_in p,
+    .veggie_res_botm h3 {
+        font-size: 40px;
+        font-family: 'LatoLight';
+        color: #2b2b2b;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .physics_res_in p span,
+    .meat_res_in p span,
+    .veggie_res_botm h3 span {
+        font-family: 'LatoBold';
+    }
+
+    .optLi_res {
+        text-align: center;
+        padding: 35px 32px 0;
+    }
+
+    .optLi_res a {
+        display: block;
+        font-family: 'LatoRegular';
+        font-size: 30px;
+        color: #f43e91;
+        padding: 20px 0 20px;
+        background: #fff;
+        border: 2px solid #f43e91;
+        border-radius: 8px;
+        margin-bottom: 25px;
+    }
+
+    .optLi_res ul {
+        width: 100%;
+    }
+
+    .optLi_res .optForm ul li {
+        display: block;
+        width: 100%;
+    }
+
+    .optLi .optForm ul li input[type="radio"]:checked + label:before,
+    .optLi .optForm ul li input[type="radio"]:not(:checked) + label:before {
+        min-width: 100%;
+        box-shadow: none;
+        border: 2px solid #f43e91;
+        padding: 20px 0 20px;
+    }
+
+    .optLi .optForm ul li input[type="radio"]:checked + label:after,
+    .optLi .optForm ul li input[type="radio"]:not(:checked) + label:after {
+        min-width: 100%;
+        background: #f43e91;
+        color: #fff;
+    }
+
+    /*
+    .optLi_res a:nth-child(4) {
+        margin-bottom: 0;
+    }
+*/
+
+    .optLi_res a:hover {
+        background: #f43e91;
+        color: #fff;
+    }
+
+    .physics_res_in .btn_wraper,
+    .meat_res_in .btn_wraper,
+    .measure_res_in .btn_wraper {
+        text-align: center;
+    }
+
+    .physics_res_in .btn_wraper a,
+    .meat_res_in .btn_wraper a,
+    .measure_res_in .btn_wraper a,
+    .veggie_res_botm .btn_wraper a {
+        background: #ffd600;
+        border: 2px solid #ffd600;
+        color: #2b2b2b;
+        padding: 14px 0px 15px;
+        border-radius: 8px;
+        font-family: 'LatoRegular';
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .physics_res_in .btn_wraper a:hover,
+    .meat_res_in .btn_wraper a:hover,
+    .measure_res_in .btn_wraper a:hover,
+    .veggie_res_botm .btn_wraper a:hover {
+        background: #555;
+        color: #ffd600;
+    }
+
+    .physics_res_in h3,
+    .meat_res_in h3,
+    .measure_res_in h3,
+    .veggie_res_botm .step_wr h3 {
+        color: #f43e91;
+        font-family: 'LatoBold';
+        font-size: 28px;
+        position: relative;
+        margin-top: 30px;
+        margin-left: 49px;
+    }
+
+    .physics_res_in h3:after,
+    .meat_res_in h3:after,
+    .measure_res_in h3:after,
+    .veggie_res_botm .step_wr h3:after {
+        content: url(../img/predArr.png);
+        position: absolute;
+        top: -18px;
+    }
+
+    .btn_wraper {
+        padding: 0 32px;
+    }
+
+    .physics_res,
+    .meat_resp_main {
+        display: block;
+    }
+
+    /*    activity page end*/
+
+    /*    meat page*/
+    .meat_desk {
+        background: url(../img/meatResbg.png) no-repeat center 100%;
+        background-size: cover;
+    }
+
+    .meat_res_in {
+        padding: 50px 0 40px;
+    }
+
+    .meat_res_in img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .meat_res_in .meatLi {
+        padding: 0 32px;
+        padding-top: 40px;
+    }
+
+    .meat_res_in .meatLi a {
+        min-height: 132px;
+        width: 132px;
+    }
+
+    .meat_res_in .meat_box {
+        width: 50%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .meat_res_in .meatLi a {
+        margin: 0 auto;
+        border: 2px solid #f43e91;
+    }
+
+    .meat_res_in .meatLi a:hover {
+        background: #f43e91;
+    }
+
+
+    .meat_res_in .meat_box:last-child {
+        width: 100%;
+    }
+
+    .meat_box h4 {
+        color: #f43e91;
+        margin-top: 15px;
+    }
+
+    .meat_res_in .btn_wraper a {
+        margin-top: 15px;
+    }
+
+    .meat_box_in input[type="radio"]:checked + label:before,
+    .meat_box_in input[type="radio"]:not(:checked) + label:before,
+    .meat_box_in input[type="radio"]:checked + label:before,
+    .meat_box_in input[type="radio"]:not(:checked) + label:before,
+    .meat_box_in input[type="radio"]:checked + label:after,
+    .meat_box_in input[type="radio"]:not(:checked) + label:after {
+        width: 132px;
+        height: 132px;
+        top: 0;
+    }
+
+    .meatLi {
+        /*        width: 100%;*/
+        /*
+        display: flex;
+        align-items: center;
+*/
+    }
+
+    .meatLi .meat_box .meat_box_in {
+        width: 100%;
+    }
+
+    /*    meat page end*/
+
+    /*    measurement page*/
+    .measure_resp_main {
+        display: block;
+        padding-bottom: 40px;
+    }
+
+    .measure_desk {
+        background: url(../img/measureBg.png) no-repeat center 100%;
+        background-size: cover;
+    }
+
+    .measure_res_in {
+        padding-top: 50px;
+    }
+
+    .measure_res_in h2 {
+        font-size: 70px;
+    }
+
+    .measure_res_in .mesur_fbox {
+        padding: 40px 40px 0;
+    }
+
+    .measure_res_in .mesur_fbox .f_wraper {
+        padding-right: 0;
+    }
+
+    .top_btn_wrp {
+        display: flex;
+        align-items: center;
+        padding-bottom: 15px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .f_wraper {
+        padding-top: 0px;
+    }
+
+    .measure_res_in .mesur_fbox a {
+        padding: 18px 38px 18px;
+        border-radius: 4px;
+        display: inline-block;
+        width: 50%;
+        border: 2px solid #f43e91;
+        background: transparent;
+        color: #f43e91;
+
+    }
+
+    .measure_res_in .mesur_fbox a:hover {
+        background: #f43e91;
+        color: #fff;
+    }
+
+    .measure_res_in .f_wraper .form-control {
+        box-shadow: none;
+        border: 2px solid #f43e91;
+        border-radius: 4px;
+        color: #f43e91;
+        height: 68px;
+    }
+
+    .measure_res_in .f_wraper .form-control::placeholder {
+        color: #f43e91;
+    }
+
+    .measure_res_in .btn_wraper {
+        padding: 0 41px;
+    }
+
+    .topBtns2 ul li {
+        width: 49%;
+        padding-right: 0;
+    }
+
+    .topBtns2 ul li:nth-child(1) {
+        padding-right: 5px;
+    }
+
+    .topBtns2 ul li:nth-child(2) {
+        padding-left: 5px;
+    }
+
+    .topBtns2 ul li input[type="radio"]:checked + label:before,
+    .topBtns2 ul li input[type="radio"]:not(:checked) + label:before,
+    .topBtns2 ul li input[type="radio"]:checked + label:after,
+    .topBtns2 ul li input[type="radio"]:not(:checked) + label:after {
+        height: 68px;
+        border-radius: 5px;
+
+    }
+
+    .topBtns ul li input[type="radio"]:checked + label,
+    .topBtns ul li input[type="radio"]:not(:checked) + label {
+        margin-bottom: 52px;
+    }
+
+    .topBtns ul li label span {
+        top: 22px;
+        font-size: 18px;
+    }
+
+    /*    measurement page end*/
+
+    /*    FAQ page*/
+    .faq_desk_inner {
+        display: none;
+    }
+
+    .faq_res {
+        display: block;
+    }
+
+    .faq_desk {
+        background: url('../img/faqResBg.png') no-repeat center center;
+        background-size: cover;
+        height: 115vh;
+    }
+
+    .faq_res_inner {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .faq_res_content h2 {
+        font-size: 50px;
+        text-align: center;
+        line-height: 65px;
+            margin-top: 50px;
+    }
+
+    .faq_res_Incontent {
+        padding: 0 22px 0 22px;
+    }
+
+    .faq_res_content h3 {
+        font-size: 26px;
+    }
+
+    .faq_res_content p {
+        font-size: 20px;
+        padding: 15px 0 20px;
+    }
+
+    .faq_res_bttm h3:nth-child(2) {
+        margin: 20px 0;
+    }
+
+
+    /*    FAQ page end*/
+
+    /*    hurray page*/
+    .hurray_desk {
+        background: url(../img/hurrResBG.png) no-repeat center 100%;
+        background-size: cover;
+        height: 100vh;
+        padding-bottom: 0;
+    }
+
+    .hurray_resMain {
+        display: block;
+    }
+
+    .hurr_res_in a img {
+        display: block;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .hurr_res_in h3 {
+        text-align: center;
+        font-family: 'LatoLight';
+        font-size: 32px;
+        margin-top: 30px;
+        margin-bottom: 5px;
+        line-height: 50px;
+    }
+
+
+    .hurr_res_in h3 strong {
+        font-family: 'LatoBold';
+    }
+
+    .hurr_res_in h4 {
+        color: #f43e91;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'LatoBold';
+
+    }
+
+    .hurr_res_in .form_wrp .form-group {
+        /*        margin-top: 35px;*/
+        margin-bottom: 12px;
+
+    }
+
+    .hurr_res_in .form_wrp .form-control {
+        border: 2px solid #f43e91;
+        border-radius: 4px;
+        background: #fff;
+        color: #f43e91;
+        font-family: 'LatoRegular';
+        font-size: 18px;
+        height: 60px;
+        text-align: center;
+    }
+
+    .hurr_res_in .form_wrp .form-control::placeholder {
+        color: #f43e91;
+    }
+
+    .hurr_in_content {
+        padding: 0 30px 10px 30px;
+    }
+
+    .hurr_res_in .form_wrp p {
+        color: #f43e91;
+        font-family: 'LatoRegular';
+        font-size: 21px;
+        margin-bottom: 25px;
+    }
+
+    .myForm_res {
+        padding-top: 25px;
+
+    }
+
+    .myForm_res .form-group input[type="email"] {
+        display: block;
+        width: 100%;
+    }
+
+    .myForm_res .form-group label {
+        font-family: 'LatoRegular';
+        color: #2b2b2b;
+        font-size: 18px;
+
+    }
+
+    .myForm_res .form-group label a {
+        color: #f43e91;
+    }
+
+    .myForm_res .get_btn {
+        width: 100%;
+    }
+
+    .hurr_res_in {
+        padding-bottom: 30px;
+            padding-top: 50px;
+    }
+
+    .hurr_res_in h5 {
+        font-size: 24px;
+        font-family: 'LatoBold';
+        color: #f43e91;
+        text-align: center;
+    }
+
+    .myForm_res .form-group label {
+        display: flex;
+        ;
+        align-items: baseline;
+    }
+
+    .myForm_res .form-group label span {
+        position: relative;
+        top: -5px;
+    }
+
+    .myForm_res .form-group label span#cond_lab {
+        position: absolute;
+        left: 31px;
+        top: -4px;
+    }
+
+    .myForm_res .form-group label:before {
+        margin-right: 8px;
+    }
+
+    .myForm_res .form-group input:checked + label:after {
+        top: 3px;
+    }
+
+    /*    hurray page end*/
+
+    /*    payment page*/
+    .payment_resMain {
+        display: block;
+    }
+
+    .pay_desk {
+        background: url(../img/paymentResBg.png) no-repeat center 100%;
+        background-size: cover;
+    }
+
+    .payment_res_inner a img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .payment_res_inner {
+        padding-top: 50px;
+    }
+
+    .paym_res_content {
+        padding: 0 35px;
+    }
+
+    .paym_res_content h3 {
+        font-size: 30px;
+        /*        text-align: center;*/
+        color: #2b2b2b;
+        font-family: 'LatoLight';
+        padding: 25px 0 5px;
+        line-height: 46px;
+    }
+
+    .paym_res_content h3 span {
+        font-family: 'LatoBold';
+    }
+
+    .paym_res_content h3 br {
+        display: none;
+    }
+
+    .paym_res_content p {
+        color: #f43e91;
+        font-family: 'LatoRegular';
+        /*        text-align: center;*/
+        font-size: 22px;
+    }
+
+    .paym_res_content h4 {
+        color: #2b2b2b;
+        font-family: 'LatoBold';
+        font-size: 40px;
+        display: block;
+        /*        text-align: center;*/
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .paym_res_content h4 span {
+        color: #f43e91;
+        font-size: 78px;
+
+    }
+
+    .paym_res_content h4 strike {
+        position: relative;
+        top: -28px;
+        margin-right: 44px;
+    }
+
+    .subscrip li img.mRight {
+        margin-right: 2px;
+    }
+
+    .paym_res_content .subscrip li {
+        font-family: 'LatoRegular';
+    }
+
+
+    .paym_res_content h4 strike:before {
+        content: url(../img/payarrow560.png);
+        position: absolute;
+        top: 38px;
+        left: 30px
+    }
+
+
+    .paym_res_content .payBtn_wraper a {
+        width: 100%;
+        border: 2px solid #f43e91;
+        border-radius: 4px;
+        color: #f43e91;
+        padding: 15px 0 15px;
+        box-shadow: none;
+        font-family: 'LatoRegular';
+    }
+
+    .paym_res_content .payBtn_wraper a:hover {
+        background: #f43e91;
+        color: #fff;
+    }
+
+    .paym_res_content .subscrip {
+        padding: 55px 0 30px 0px;
+    }
+
+    .seure_link li a#secuPay {
+        font-size: 22px;
+    }
+
+    .seure_link li a:nth-child(1) {
+        padding-right: 0;
+    }
+
+    /*    payment page end*/
+
+    /*    card payment page*/
+    .cpay_res_main {
+        display: block;
+    }
+
+    .cpay_res_in {
+        padding: 50px 0 30px;
+    }
+
+    .cpay_res_in a img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cpay_content {
+        padding: 35px 40px 0 40px;
+    }
+
+    .cpay_content .pay_form {
+        width: 100%;
+    }
+
+    .cpay_content .pay_form .form-group input {
+        margin-right: 0;
+        font-size: 16px;
+        letter-spacing: 9px;
+        width: 100%;
+    }
+
+    .cpay_content .pay_form .form-group input#cvvNo {
+        margin-left: 82px;
+    }
+
+    .cpay_content .card_typ {
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    .cpay_content {
+        position: relative;
+    }
+
+    .cpay_content h3 {
+        color: #f43e91;
+        font-family: 'LatoRegular';
+        font-size: 28px;
+        padding-left: 96px;
+
+    }
+
+    .cpay_content h4 {
+        padding-bottom: 110px;
+        color: #2b2b2b;
+        font-family: 'LatoBold';
+        position: relative;
+        text-align: center;
+    }
+
+    .cpay_content h4 strike {
+        font-size: 35px;
+        margin-right: 0px;
+        position: relative;
+        top: -33px;
+    }
+
+    .cpay_content h4 strike:after {
+        content: url(../img/payarrow560.png);
+        position: absolute;
+        top: 34px;
+        left: 42px;
+    }
+
+    .cpay_content h4 span {
+        color: #f43e91;
+        font-size: 90px;
+
+    }
+
+    .cpay_content .seure_link li {
+        margin-right: 10px;
+    }
+
+    .cpay_content .seure_link {
+        text-align: center;
+    }
+
+    .cpay_content .pay_form .form-group input#cvvNo {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    /*
+    .pay_form .form-group input#cardHname {
+        width: 100%;
+        margin-right: 0;
+    }
+*/
+
+    /*    card payment page end*/
+    .cpay_content .pay_form .form-group input.width50 {
+        width: 46%;
+    }
+
+    .cpay_content .pay_form .form-group input.mgryt {
+        margin-right: 15px;
+
+    }
+
+    .cpay_content .pay_form .form-group input.cardN1 {
+        margin-top: 25px;
+    }
+
+    .pay_form .form-group {
+        margin-bottom: 35px;
+    }
+
+    .pay_form .form_group {
+        width: 100%;
+    }
+
+    /*    contact page*/
+    .contact_inner {
+        background: url(../img/contactResbg.png) no-repeat center center;
+        background-size: cover;
+    }
+
+    .send_btn {
+        width: 100%;
+    }
+
+    .contact_f .form-group input,
+    .contact_f .form-group textarea {
+        width: 100%;
+    }
+
+    .contact_wraper {
+        padding: 0 35px;
+    }
+
+    .contact_f .form-group input[type='text'] {
+        margin-top: 8px;
+    }
+
+    .contact_f .form-group textarea {
+        margin-top: 15px;
+    }
+
+    .form_wraper h2:before {
+        left: -10%;
+    }
+
+    .form_wraper h2:after {
+        right: -8%;
+    }
+
+    .form_wraper h2 {
+        font-size: 45px;
+    }
+
+    /*    contact page end*/
+
+    /*    veggie page*/
+    .veggie_desk {
+        background: url(../img/veggieRes.png) no-repeat center 100%;
+        background-size: cover;
+    }
+
+    .veggie_resmain {
+        display: block;
+    }
+
+    .veggieRes_top a img {
+        display: block;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+
+    .veggie_res_botm {
+        padding: 30px 32px 40px;
+    }
+
+    .veggie_res_botm .meatLi a {
+        min-height: 132px;
+        width: 132px;
+        margin: 9px auto;
+        border: 2px solid #f43e91;
+    }
+
+    .veggie_res_botm .meatLi a:hover {
+        background: #f43e91;
+    }
+
+
+    .veggie_res_botm .meat_box {
+        width: 50%;
+        margin-bottom: 20px;
+
+    }
+
+    .veggie_res_botm .step_wr h3 {
+        padding-top: 0;
+        margin-top: 40px;
+        margin-left: 38px;
+        text-align: left;
+    }
+
+    .veggie_res_botm h3 {
+        padding-top: 0;
+    }
+
+    .veggie_box_in2 input[type="checkbox"]:checked + label:before,
+    .veggie_box_in2 input[type="checkbox"]:not(:checked) + label:before,
+    .veggie_box_in2 input[type="checkbox"]:checked + label:before,
+    .veggie_box_in2 input[type="checkbox"]:not(:checked) + label:before,
+    .veggie_box_in2 input[type="checkbox"]:checked + label:after,
+    .veggie_box_in2 input[type="checkbox"]:not(:checked) + label:after {
+        width: 132px;
+        height: 132px;
+    }
+
+    .veggie_box_in input[type="checkbox"]:checked + label:after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .veggie_box_in input[type="checkbox"]:checked + label:after,
+    .veggie_box_in input[type="checkbox"]:not(:checked) + label:after {
+        content: '';
+        /* background: #fff; */
+        border: 2px solid #f43e91;
+        background: #f43e91;
+        position: absolute;
+        border-radius: 100%;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+
+    .veggie_box_in {
+        width: 50%;
+        margin-top: 8px;
+    }
+
+    .veggiLi {
+        text-align: center;
+    }
+
+    .veggie_res_botm .btn_wraper a {
+        margin-top: 25px;
+    }
+
+    .veggie_res_in {
+        padding-top: 50px;
+    }
+
+    /*    veggie page end*/
+
+    .optLi .optForm ul li:nth-child(1) {
+        padding-right: 0;
+    }
+
+    .optLi .optForm ul li:nth-child(2) {
+        padding-left: 0;
+    }
+
+    .optLi .optForm ul li label#lactv {
+        margin-bottom: 30px;
+        margin-top: 18px;
+    }
+
+    .physics_desk,
+    .measure_desk,
+    .pay_desk,
+    .faq_desk,
+    .hurray_desk {
+        display: none;
+    }
+    
+    .header .hamburger {
+        top:-10px;
+    }
+    
+     .header {
+         background:#fff;
+         transition:all 0.3s;
+         padding:10px 0;
+     }
+     
+     .header.fixed_header {
+         box-shadow:0 2px 5px rgba(0,0,0,0.2);
+     }
+     
+     a.res_logo {
+         position:fixed;
+         top:14px;
+         z-index:999;
+     }
+     
+    a.res_logo img {
+          width: 230px;
+          padding-top: 0;
+          margin-top: 3px;;
+     }
+     
+     header.cont_header {
+         background:transparent;
+     }
+     
+     .contact_wraper .form_wraper h2 { 
+         margin-top:55px;
+     }
+     
+     a.res_logoCont {
+        left: 25px;
+     }
+    
+}
+
+@media(max-width:414px) {
+
+    [type="radio"]:checked + label:before,
+    [type="radio"]:not(:checked) + label:before {
+        width: 115px;
+        height: 115px;
+    }
+
+    .ketoBottomRes form p {
+        width: 115px;
+        height: 115px;
+        margin-left: -36px;
+    }
+
+    .ketoBottomRes form p {
+        width: 115px;
+        height: 115px;
+        margin-left: -38px;
+    }
+
+    .keto_bottom form p#or span {
+        padding-left: 18px;
+    }
+
+    .bottomArr {
+        padding: 0 0 28px;
+    }
+
+    .bottomArr p img {
+        width: 44px;
+    }
+
+    .bottomArr p span {
+        font-size: 16px;
+    }
+
+    .ketoBottomRes form p label img {
+        top: 15px;
+        left: -3px;
+        z-index: 99;
+        width: 50px;
+    }
+
+    .keto_bottom .genderSel p input[type="radio"]:checked + label:before,
+    .keto_bottom .genderSel p input[type="radio"]:not(:checked) + label:before,
+    .keto_bottom .genderSel p input[type="radio"]:checked + label:after,
+    .keto_bottom .genderSel p input[type="radio"]:not(:checked) + label:after {
+        width: 100px;
+        height: 100px;
+    }
+
+    .ketoBottomRes form {
+        padding-top: 30px;
+    }
+
+
+    .keto_mid h1:before,
+    .keto_mid h1:after {
+        top: 110px;
+        transform: scale(0.7);
+    }
+
+    .keto_mid h1:before {
+        left: 12px;
+    }
+
+    .keto_mid h1:after {
+        right: 5px;
+    }
+
+    .keto_mid h1 {
+        padding-top: 68px;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    /*    activity page*/
+    .physics_res_in h2,
+    .meat_res_in h2 {
+        font-size: 70px;
+    }
+
+    .physics_res_in p,
+    .meat_res_in p {
+        font-size: 24px;
+        padding-top: 22px;
+    }
+
+    .physics_res_in h3 {
+        margin-left: 0;
+    }
+
+    .optLi_res {
+        padding: 8px 0px 0;
+    }
+
+    .optLi_res a {
+        font-size: 22px;
+        padding: 10px 0 10px;
+        margin-bottom: 15px;
+    }
+
+    .optLi .optForm ul li label span {
+        font-size: 18px;
+    }
+
+    .btn_wraper {
+        padding: 0 0px;
+    }
+
+    .physics_res_in .btn_wraper a,
+    .meat_res_in .btn_wraper a {
+        padding: 7px 0px 7px;
+        font-size: 24px;
+    }
+
+    /*    activity page end*/
+
+    /*    meat page*/
+    .physics_res_in h3,
+    .meat_res_in h3 {
+        font-size: 22px;
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+
+    .meat_res_in .meatLi a {
+        min-height: 100px;
+        width: 100px;
+    }
+
+    .meat_res_in .meatLi {
+        padding: 0 0px;
+        padding-top: 35px;
+    }
+
+    /*    meat page end*/
+
+    /*    measurement page*/
+    .measure_res_in h2 {
+        font-size: 52px;
+    }
+
+    .measure_res_in .mesur_fbox {
+        padding: 25px 0px 0;
+    }
+
+    .measure_res_in .btn_wraper {
+        padding: 0 0px;
+    }
+
+    .measure_res_in h3 {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .measure_res_in .mesur_fbox a {
+        padding: 8px 38px 8px;
+    }
+
+    .measure_res_in .f_wraper .form-control {
+        height: 48px;
+    }
+
+    .measure_res_in .mesur_fbox a,
+    .f_wraper .form-control {
+        font-size: 18px;
+    }
+
+    /*
+    .physics_res_in .btn_wraper a,
+    .meat_res_in .btn_wraper a,
+*/
+    .measure_res_in .btn_wraper a {
+        padding: 8px 0px 11px;
+        font-size: 18px;
+    }
+
+    /*    measurement page end*/
+
+    /*FAQ page*/
+    .faq_res_content h2 {
+        font-size: 45px;
+        padding-right: 8px;
+        padding-bottom: 25px;
+    }
+
+    .faq_res_Incontent {
+        padding: 0;
+    }
+
+    .faq_res_content h3 {
+        font-size: 22px;
+    }
+
+    .faq_res_content p {
+        font-size: 18px;
+        padding: 10px 0 15px;
+    }
+
+    .faq_res_bttm h3:nth-child(2) {
+        margin: 15px 0;
+    }
+
+    /*FAQ page end*/
+
+    /*    hurray page*/
+
+    .hurr_res_in h2 {
+        font-size: 75px;
+    }
+
+    .hurr_res_in h3 {
+        margin-top: 15px;
+        font-size: 26px;
+    }
+
+    .hurr_in_content {
+        padding: 0 0px 10px 0px;
+    }
+
+    .hurr_res_in h4 {
+        font-size: 40px;
+    }
+
+    .hurr_res_in .form_wrp p {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .myForm_res .form-group label {
+        font-size: 16px;
+    }
+
+    .hurr_res_in .form_wrp .form-control {
+        height: 48px;
+    }
+
+    .myForm_res .get_btn {
+        padding: 6px 61px 7px;
+        font-size: 22px;
+    }
+
+    .hurr_res_in h5 {
+        font-size: 18px;
+    }
+
+    /*    hurray page end*/
+
+    /*    payment page*/
+    .payment_res_inner h2 {
+        font-size: 70px;
+    }
+
+    .paym_res_content h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .paym_res_content h3 br {
+        display: block;
+    }
+
+    .paym_res_content p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .paym_res_content {
+        padding: 0;
+    }
+
+    .paym_res_content h4 strike {
+        margin-right: 10px;
+    }
+
+    .paym_res_content h4 {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .paym_res_content h4 span {
+        font-size: 72px;
+    }
+
+    .paym_res_content .payBtn_wraper a {
+        padding: 10px 0 10px
+    }
+
+    .paym_res_content .subscrip {
+        width: max-content;
+        margin: 0 auto;
+    }
+
+    /*    payment page end*/
+
+    /*    card payment page*/
+    .cpay_res_in h2 {
+        font-size: 70px;
+    }
+
+    .cpay_res_in a img {
+        width: 84%;
+    }
+
+    .cpay_content h3 {
+        padding-left: 32px;
+        text-align: center;
+    }
+
+    .cpay_content h4 {
+        padding-top: 15px;
+        padding-bottom: 65px;
+        text-align: center;
+    }
+
+    .cpay_content h4 span {
+        font-size: 70px;
+    }
+
+    .cpay_content h4 strike {
+        margin-right: 0px;
+    }
+
+    .cpay_content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .cpay_content .card_typ li {
+        margin-right: 15px;
+    }
+
+    .cpay_content .pay_form .form-group input {
+        width: 100%;
+    }
+
+    .cpay_content .pay_form .form-group input {
+        margin-right: 13px;
+    }
+
+    .cpay_content .pay_form .form-group input.cardN1 {
+        margin-top: 30px;
+    }
+
+    .cpay_content .pay_form .form-group input.mgryt {
+        margin-right: 0;
+    }
+
+    .cpay_content .pay_form .form-group input.width50 {
+        width: 40%;
+        margin-right: 15px;
+        padding-left: 0;
+    }
+
+    .cpay_content .pay_form .form-group input.width52 {
+        margin-right: 0;
+    }
+
+    .cpay_content .pay_form .form-group input#cvvNo {
+        padding-left: 0;
+    }
+
+    /*    card payment page end*/
+
+    /*    contact page*/
+    .contact_wraper {
+        padding: 0 0;
+    }
+
+    .contact_f .form-group input,
+    .contact_f .form-group textarea {
+        font-size: 14px;
+    }
+
+    .form_wraper h2 {
+        font-size: 40px;
+    }
+
+    .form_wraper img {
+        width: 75%;
+    }
+
+    .form_wraper h2:after {
+        content: url(../img/contactRarrow414.png);
+        right: -3%;
+    }
+
+    .form_wraper h2:before {
+        content: url(../img/contactLarrRes414.png);
+        left: -2%;
+
+    }
+
+    .contact_f .form-group textarea {
+        margin-top: 30px;
+    }
+
+    .contact_f .send_btn {
+        font-size: 18px;
+    }
+
+    /*    contact page end*/
+
+    /*    veggie page*/
+    .veggieRes_top h2 {
+        font-size: 70px;
+    }
+
+    .veggie_res_botm h3 {
+        font-size: 22px;
+    }
+
+    .veggie_res_botm {
+        padding: 30px 0 40px;
+    }
+
+    .veggie_res_botm .meatLi a {
+        min-height: 100px;
+        width: 100px;
+    }
+
+    .veggie_res_botm .step_wr h3 {
+        margin-left: 10px;
+        font-size: 22px;
+    }
+
+    .veggie_res_botm .btn_wraper a {
+        font-size: 20px;
+        padding: 8px 0 8px;
+    }
+
+    .veggie_res_botm .btn_wraper {
+        margin-top: 15px;
+    }
+
+
+    /*    veggie page end*/
+
+    .topBtns2 ul li input[type="radio"]:checked + label:before,
+    .topBtns2 ul li input[type="radio"]:not(:checked) + label:before,
+    .topBtns2 ul li input[type="radio"]:checked + label:after,
+    .topBtns2 ul li input[type="radio"]:not(:checked) + label:after {
+        height: 48px;
+    }
+
+    .topBtns ul li input[type="radio"]:checked + label,
+    .topBtns ul li input[type="radio"]:not(:checked) + label {
+        margin-bottom: 30px;
+    }
+
+    .topBtns ul li label span {
+        top: 13px;
+    }
+
+    .optLi .optForm ul li {
+        margin-bottom: 45px;
+    }
+
+    .optLi .optForm ul li label#lactv {
+        margin-bottom: 22px;
+        margin-top: 5px;
+    }
+
+    .meat_box_in input[type="radio"]:checked + label:before,
+    .meat_box_in input[type="radio"]:not(:checked) + label:before,
+    .meat_box_in input[type="radio"]:checked + label:before,
+    .meat_box_in input[type="radio"]:not(:checked) + label:before,
+    .meat_box_in input[type="radio"]:checked + label:after,
+    .meat_box_in input[type="radio"]:not(:checked) + label:after {
+        width: 100px;
+        height: 100px;
+    }
+
+    .veggie_box_in input[type="checkbox"]:checked + label:before,
+    .veggie_box_in input[type="checkbox"]:not(:checked) + label:before,
+    .veggie_box_in input[type="checkbox"]:checked + label:before,
+    .veggie_box_in input[type="checkbox"]:not(:checked) + label:before,
+    .veggie_box_in input[type="checkbox"]:checked + label:after,
+    .veggie_box_in input[type="checkbox"]:not(:checked) + label:after {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cpay_content .pay_form .form-group input {
+        letter-spacing: 7px;
+    }
+
+    .form-group .form-control {
+        padding-left: 0;
+    }
+    
+    a.res_logo img {
+        width: 170px;
+        margin-top: 4px;
+}
+
+.header {
+    padding: 6px 0;
+}
+
+.physics_res_in h2, .meat_res_in h2, .measure_res_in h2, .hurr_res_in h2, .payment_res_inner h2, .cpay_res_in h2, .veggieRes_top h2 {
+    margin-top: 35px;
+}
+
+.measure_res_in .f_wraper .form-control {
+    padding-left:10px;
+}
+
+ .measure_res_in h2 {
+        margin-top: 25px;
+    }
+    
+.faq_res_content h2 {
+    margin-top: 30px;
+    }
+    
+.contact_wraper .form_wraper h2 { 
+    margin-top:30px;
+     }
+
+}
+
+@media(max-width:320px) {
+
+    /*
+    .keto_mid h1:before,
+    .keto_mid h1:after {
+        top: 135px;
+    }
+*/
+
+    /*
+    .keto_mid h1 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+*/
+
+    .faq_res_content h3 {
+        font-size: 20px;
+    }
+}
