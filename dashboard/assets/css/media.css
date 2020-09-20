@@ -1,0 +1,110 @@
+@media(max-width:1366px) {
+    .header nav .menu li a {
+        padding:0 15px;
+    }
+}
+
+@media(max-width:1199px) {
+    .header {
+        padding: 10px 15px;
+    }
+
+    .header nav .menu li a {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+    .header_rht a {
+        font-size: 14px;
+    }
+
+    .keys_box p br {
+        display: none;
+    }
+
+    .keyword_box h4 {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width:991px) {
+    .header .menu {
+        display: none;
+    }
+
+    .hamburge_icon {
+        display: block;
+        top:3px;
+    }
+
+    .sidebar_menu {
+        display: block;
+    }
+   
+    .upper_box p br {
+        display: none;
+    }
+
+    .result_box label {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:767px) {
+    .sidebar {
+        left: -100%;
+    }
+    
+    .main {
+        margin-left: 0;
+    }
+}
+
+@media(max-width:560px) {
+    .header nav .navbar-brand {
+        width: 140px;
+    }
+
+    .controls_box {
+        display: block!important;
+    }
+
+    .controls_box .btns {
+        text-align: center;
+    }
+
+    .keywords_tls_inr h3 {
+        font-size: 21px;
+        line-height: 30px
+    }
+
+
+    .keywords_tls_inr h3 br {
+        display: none;
+    }
+}
+
+@media(max-width:414px) {
+    .header nav .navbar-brand {
+        width: 120px;
+        margin:0;
+    }
+
+    .header_rht a {
+        font-size: 12px;
+    }
+
+    .header_rht a + a {
+        padding: 2px 13px 1px;
+    }
+
+    .card_wraper {
+        padding: 20px 15px;
+    }
+
+    .card_wraper button {
+        font-size: 16px;
+        padding: 5px 40px 4px;
+    }
+}

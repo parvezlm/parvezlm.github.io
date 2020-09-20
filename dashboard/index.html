@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header_in">
+            <nav class="navbar justify-content-start">
+                <div class="navbar-brand">
+                    <a href=""><img src="assets/img/logo.png" alt="logo"></a>
+                </div>
+                <div class="menu_box d-flex">
+                    <ul class="nav menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Tools</a></li>
+                        <li><a href="">Resources</a></li>
+                        <li><a href="">Marketplace</a></li>
+                        <li><a href="">Blogging Community</a></li>
+                    </ul>
+                </div>
+                <div class="ml-auto header_rht">
+                    <a href="">Sign In</a>
+                    <a href="">Register</a>
+                </div>
+                <div class="hamburge_icon ml-3">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- sidenav -->
+    <div class="sidebar">
+        <div class="sidebar_upper">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search Tools..">
+                <button type="button"><i class="fa fa-search"></i></button>
+            </div>
+            <div class="form-gorup">
+                <label for="">Categories</label>
+                <select class="form-control">
+                    <option value="">All</option>
+                    <option value="">Category 1</option>
+                    <option value="">Category 2</option>
+                    <option value="">Category 3</option>
+                </select>
+            </div>
+        </div>
+        <div class="sidebar_btm">
+            <div class="sidebar_menu">
+                <label for="">Menu</label>
+                <ul class="">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Tools</a></li>
+                    <li><a href="">Resources</a></li>
+                    <li><a href="">Marketplace</a></li>
+                    <li><a href="">Blogging Community</a></li>
+                </ul>
+            </div>
+            <label for="">Free Tools</label>
+            <ul>
+                <li><a href="">Word Counter</a></li>
+                <li><a href="">Convert Case</a></li>
+                <li><a href="">SERP Simulator</a></li>
+                <li><a href="">Keyword Density Checker</a></li>
+                <li><a href="">Keyword Permutation</a></li>
+                <li><a href="">Adwords Wraper</a></li>
+            </ul>
+
+            <label for="">Paid Tools</label>
+            <ul>
+                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">Word Counter</a></li>
+                <li><a href="">Convert Case</a></li>
+                <li><a href="">SERP Simulator</a></li>
+                <li><a href="">Keyword Density Checker</a></li>
+                <li><a href="">Keyword Permutation</a></li>
+                <li><a href="">Adwords Wraper</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- sidenav end -->
+
+
+    <!-- main section -->
+    <section class="main">
+        <div class="inner">
+            <div class="upper_box text-center">
+                <a href=""><img src="assets/img/logo1.png" alt="logo"></a>
+                <p>GET THOUSANDS OF RELEVANT KEYWORD IDEAS WITH ACCURATE SEARCH VOLUME, KEYWORD DIFFICULTY SCORE AND<br>
+                    ADVANCED METRICS LIKE CLICKS, RETURN RATE AND PARENT TOPIC.</p>
+            </div>
+            <div class="card card_wraper keywords_box">
+                <textarea class="form-control" placeholder="Separated by commas or on a new line..."></textarea>
+                <div class="controls_box d-flex align-items-center justify-content-between">
+                    <div class="form-group">
+                        <select class="form-control">
+                            <option>To Lowercase</option>
+                            <option>To Uppercase</option>
+                        </select>
+                    </div>
+                    <div class="btns">
+                        <button type="button" class="wrap_btn btn_blue">Wrap</button>
+                        <button type="button" class="clear_btn btn_red">Clear</button>
+                    </div>
+                </div>
+            </div>
+
+           <div class="result_box">
+            <h2 class="text-center">Result</h2>
+            <div class="card card_wraper">
+                <form action="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="">Broad, Modified Broad Phrase & Extract Match</label>
+                            <div class="form-group">
+                                <textarea class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for=""> Modified Broad Phrase & Extract Match</label>
+                            <div class="form-group">
+                                <textarea class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="">Broad, Extract Match</label>
+                            <div class="form-group">
+                                <textarea class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for=""> Phrase & Extract Match</label>
+                            <div class="form-group">
+                                <textarea class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for=""> Modified Broad Phrase</label>
+                            <div class="form-group">
+                                <textarea class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="">Phrase Match</label>
+                            <div class="form-group">
+                                <textarea class="form-control"></textarea>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </form>
+            </div>
+           </div>
+        </div>
+    </section>
+    <!-- main section end -->
+
+
+
+    <!-- The Modal -->
+  <div class="modal fade keywords_paidtools_modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal body -->
+        <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <div class="keywords_tls_inr text-center">
+                <img src="assets/img/1.png" alt="logo">
+                <h3>JOIN KEYWORDSFLY TOOL TO TRACK <br>AND IMPROVE YOUR RANKINGS.</h3>
+                <a href=""><img src="assets/img/sign_google.png" alt="image"></a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+
+
+
+  <script src="assets/plugins/jquery/jquery.js"></script>
+  <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html> 
