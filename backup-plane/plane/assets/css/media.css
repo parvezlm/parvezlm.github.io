@@ -1,0 +1,169 @@
+@media(min-width: 1400px){
+	.container {
+		max-width: 80%;
+	}
+}
+
+@media(max-width: 991px) {
+	.search_box input, 
+	.search_box button {
+		height: 36px;
+	}
+
+	.header_top .logo img {
+		width: 150px;
+	}
+
+	.carousel-indicators li {
+		display: none;
+	}
+
+	.sell_box {
+		padding: 0 15px;
+	}
+
+	.sell_box .col-md-4 a {
+		width: 100%;
+	}
+
+	.plane_box .tabs_btn {
+		width: 800px;
+	}
+
+	.tabs_wrpaer {
+		overflow: auto;
+	}
+}
+
+@media(max-width: 767px) {
+	.header_top .col-md-5 {
+		display: none;
+	}
+
+	.header_top ul li:first-child {
+		display: none
+	}
+
+	.header_top .col-md-3 {
+		flex:0 0 25%;
+		max-width: 25%;
+	}
+
+	.header_top .col-md-4 {
+		flex:0 0 75%;
+		max-width: 75%;
+	}
+
+	.header_bottom {
+		    position: fixed;
+		    top: 0;
+		    width: 235px;
+		    height: 100%;
+		    z-index: 999;
+			background: #fff;
+			padding: 13px 0;
+			left: -235px;
+    		transition: all 0.2s;
+	}
+
+	.header_bottom ul li {
+		display: block;
+	}
+
+	.header nav li {
+		padding-right: 0;
+	}
+
+	.locations {
+		display:none;
+	}
+
+	.header_bottom ul {
+		line-height: initial;
+		margin-top: 30px;
+	}
+
+	.header_bottom nav > ul > li > a {
+		padding: 10px 0;
+    	display: block;
+	}
+
+	.sidebar_logo {
+		display: block;
+	}
+
+	.carousel-item img {
+		min-height: initial;
+	}
+
+	.form_wraper {
+		position: relative;
+		margin: 30px auto 0;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+		left: 0;
+		top: 0;
+	}
+
+	.banner {
+		padding: 0 15px 50px;
+	}
+
+	.sell_box {
+		text-align: center;
+		padding: 30px 15px;
+	}
+
+	.sell_box h2 {
+		margin-top: 18px;
+	}
+
+	.sell_box h2 + p {
+		margin-top: 18px;
+	}
+
+	.hamburge_icon {
+		display: inline-block;
+	}
+
+	.sidebar_logo img {
+		width: 150px;
+	}
+
+	.header nav li .subMenu {
+		position: relative;
+		top: 1px;
+	}
+
+	
+}
+
+@media(max-width:560px) {
+	.header_top_rht  ul {
+		display: none;
+	}
+
+	.slider .slick-next, .slider .slick-prev {
+		width: 40px;
+		height: 40px;
+	}
+
+	footer {
+		padding: 40px 0 10px;
+	}
+
+	.sell_plane {
+		padding: 50px 0 50px;
+	}
+
+	
+}
+
+@media(max-width:414px) {
+	.form_wraper {
+		width: 100%;
+	}
+
+	.form_wraper h2 {
+		text-align: center;
+	}
+}

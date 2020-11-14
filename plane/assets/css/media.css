@@ -26,16 +26,11 @@
 		width: 100%;
 	}
 
-	.plane_box .tabs_btn {
-		width: 800px;
-	}
-
+	
 	.tabs_wrpaer {
 		overflow: auto;
 	}
-}
 
-@media(max-width: 767px) {
 	.header_top .col-md-5 {
 		display: none;
 	}
@@ -64,6 +59,7 @@
 			padding: 13px 0;
 			left: -235px;
     		transition: all 0.2s;
+    		overflow: auto;
 	}
 
 	.header_bottom ul li {
@@ -85,9 +81,53 @@
 
 	.header_bottom nav > ul > li > a {
 		padding: 10px 0;
-    	display: block;
+		display: block;
+	}
+	
+
+	.hamburge_icon {
+		display: inline-block;
+		margin-left: 15px;
 	}
 
+	.events .col {
+    	margin-bottom: 60px;
+	}
+
+	.events {
+    	padding: 70px 0 0;
+	}
+
+	.form_wraper {
+		width: 100%;
+	}
+
+	.banner_rht {
+		padding-left: 0;
+	}
+
+	.header nav li .subMenu {
+		position: initial;
+		top: 1px;
+		display: none;
+		width: 205px;
+		box-shadow: none!important;
+	}
+
+	.header nav li ul.learnToFly_menu {
+		height: initial;
+	}
+
+	.header nav li:hover {
+		padding: 0;
+	}
+
+	.header nav li a i{
+		float: right;
+	}
+}
+
+@media(max-width: 767px) {
 	.sidebar_logo {
 		display: block;
 	}
@@ -115,30 +155,27 @@
 
 	.sell_box h2 {
 		margin-top: 18px;
+		margin-bottom: 18px;
 	}
 
 	.sell_box h2 + p {
 		margin-top: 18px;
 	}
 
-	.hamburge_icon {
-		display: inline-block;
-	}
-
+	
 	.sidebar_logo img {
 		width: 150px;
 	}
 
-	.header nav li .subMenu {
-		position: relative;
-		top: 1px;
+	.banner_bg .col-md-5 {
+		order: 2;
 	}
 
 	
 }
 
 @media(max-width:560px) {
-	.header_top_rht  ul {
+	.header_top_rht  ul li.language{
 		display: none;
 	}
 
@@ -155,6 +192,17 @@
 		padding: 50px 0 50px;
 	}
 
+	.banner_bg {
+		padding: 50px 15px;
+	}
+
+	.banner_rht h1 {
+    	font-size: 32px;
+	}
+
+	.events {
+    padding: 20px 0 0;
+}
 	
 }
 
@@ -165,5 +213,13 @@
 
 	.form_wraper h2 {
 		text-align: center;
+	}
+
+	.header_top .logo img {
+    	width: 130px;
+	}
+
+	.events .col img {
+    	width: 120px;
 	}
 }

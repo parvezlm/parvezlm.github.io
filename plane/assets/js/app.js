@@ -71,6 +71,40 @@ $('.hamburge_icon').click(function() {
 
 
 
+    // sidebar menu accordian
+    $('.header nav > ul > li').click(function() {
+      if($(this).hasClass('active')) {
+        $(this).removeClass('active');
+        $(this).find('.subMenu').slideUp();
+      }else {
+        $('.header nav > ul > li').removeClass('active');
+        $(this).addClass('active');
+         $('.header nav > ul > li').find('.subMenu').slideUp();     
+         $(this).find('.subMenu').slideDown();     
+      }
+        
+      });
 
+    // let tabElm = $('.tabs_wraper');
+    // let tab_btn = $('.tabs_btn li').width();
+    // let widthElm = tab_btn * 25;
+    // let el = 0;
+    // $('.tab_box').css('width', widthElm);
+    // $('.tabs_btn').addClass('active');
+
+    // $('.tabs_btn.active li').click(function() {
+    //   let lastchild = $('.tabs_btn.active li:last-child');
+    //   let elm = $(this).width() + 30;
+    //    el += elm;
+
+    //    if($('.tabs_btn').css('transform','translateX') > 1200) {
+    //      $('.tabs_btn').removeClass('active');
+    //    }
+
+    //   $('.tabs_wrpaer').css('transform',"translateX("+(-el)+"px)");
+    //   console.log($('.tabs_btn').css('transform','translateX'))
+    // })
+
+   
 
 })
