@@ -508,15 +508,11 @@ button,input {
 /*===============header end==============*/
 
 /*================banner===============*/
-.banner {
-	padding: 0 5%;
-}
-
 
 .banner_bg {
     background:url('../img/banner.jpg') no-repeat;
     background-size: cover;
-    padding: 80px 40px;
+    padding: 80px 7%;
     position: relative;
 }
 
