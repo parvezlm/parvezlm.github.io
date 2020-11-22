@@ -171,6 +171,15 @@
 		order: 2;
 	}
 
+
+	.battles_slider .slide .col-md-6 {
+		padding-left: 15px!important;
+		padding-right: 15px!important;
+	}
+
+	.battles_slider .vs {
+	 display: none;
+	}
 	
 }
 
@@ -204,6 +213,10 @@
     padding: 20px 0 0;
 }
 	
+	.book_btn_box a.book_btn {
+		width: 100%;
+		font-size: 14px;
+	}
 }
 
 @media(max-width:414px) {

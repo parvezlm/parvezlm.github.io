@@ -7,6 +7,7 @@ body {
 	font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #000;
+    background-color: #fafafa;
 }
 
 ul,li,h1,h2,h3,h4,h5,h6 {
@@ -680,7 +681,6 @@ button,input {
 }
 
 .sell_plane {
-    background-color: #fafafa;
     padding: 60px 0 70px;
 }
 
@@ -741,7 +741,7 @@ button,input {
     box-shadow: 0 1px 3px rgba(36,39,44,.15);
     -webkit-border-radius: 2px;
     border-radius: 2px;
-    padding: 15px 20px 20px;
+    padding: 25px 20px 20px;
     background: #fff;
 }
 
@@ -771,7 +771,7 @@ button,input {
 
 .plane_box .tabs_btn  {
     border-bottom: 1px solid rgba(36,39,44,.15);
-    margin-bottom: 24px;
+    /*margin-bottom: 24px;*/
     width: calc(100% - 40px);
 }
 
@@ -792,7 +792,9 @@ button,input {
     margin: 8px 0;
 }
 
-.slide p + a {
+.slide p + a,
+.battles_slider a,
+.launch_btn {
     background: #fff;
     color: #f75d34;
     font-weight: 500;
@@ -830,8 +832,8 @@ button,input {
     padding: 20px 15px 10px;
 }
 
-.slider .slick-next,
-.slider .slick-prev {
+.slick-next,
+.slick-prev {
     position: absolute;
     top: 130px;
     width: 50px;
@@ -843,11 +845,11 @@ button,input {
     z-index: 9;
 }
 
-.slider .slick-next {
+.slick-next {
     right: -28px;  
 }
 
-.slider .slick-prev {
+.slick-prev {
     left:-28px;
 }
 
@@ -957,6 +959,136 @@ button,input {
     width: 2375px;
 }
 
+/* total width */
+.tabs_wrpaer::-webkit-scrollbar {
+    background-color:#fff;
+    width:16px
+}
+
+/* background of the scrollbar except button or resizer */
+.tabs_wrpaer::-webkit-scrollbar-track {
+    background-color:#fff
+}
+.tabs_wrpaer::-webkit-scrollbar-track:hover {
+    background-color:#f4f4f4
+}
+
+/* scrollbar itself */
+.tabs_wrpaer::-webkit-scrollbar-thumb {
+    background-color:#babac0;
+    border-radius:16px;
+    border:6px solid #fff
+}
+.tabs_wrpaer::-webkit-scrollbar-thumb:hover {
+    background-color:#a0a0a5;
+    border:6px solid #f4f4f4
+}
+
+/* set button(top and bottom of the scrollbar) */
+.tabs_wrpaer::-webkit-scrollbar-button {display:none}
+
+/* div box */
+
+
+
+.brand_slider .slide {
+    padding: 25px;
+    text-align: center;
+    outline: none;
+}
+
+.brand_slider .slide p {
+    margin-top: 15px;
+    font-size: 18px
+}
+
+.brand_slider .slide img {
+    height: 150px;
+    object-fit: contain;
+}
+
+
+.border_top {
+    padding: 10px 0 0;
+    border-top: 1px solid rgba(36,39,44,.15)
+    margin-top: 15px;
+}
+
+.viewBrands_btn {
+    font-size: 16px;
+    color: #ff4e1c;
+}
+
+.battles_slider {
+    position: relative;
+}
+
+.battles_slider .vs {
+    position: absolute;
+    top: 40px;
+    right: -17px;
+    width: 40px;
+    height: 40px;
+    background-color: #171515;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    line-height: 43px;
+    z-index: 9;
+}
+
+.battles_slider p {
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+
+.battles_slider a{
+    margin: 15px auto 20px;
+    display: block;
+}
+
+
+.book_btn_box a.book_btn {
+    width: 480px;
+    display: block;
+    margin: 0 auto;
+}
+
+.launch_btn {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.event_details p {
+    font-size: 18px;
+}
+
+.event_details span {
+    font-size: 12px;
+    color: #555;
+}
+
+.rht_review p {
+    font-size: 14px;
+}
+
+.rht_review span {
+    display: block;
+}
+
+.rht_review span + span {
+    font-size: 14px;
+    color: #666;
+}
+
+.plane_review .col-md-6 {
+    margin-bottom: 30px;
+}
 
 
 /*==================footer ================*/

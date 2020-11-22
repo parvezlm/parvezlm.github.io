@@ -58,6 +58,111 @@ $('.slider').slick({
   ]
 });
 
+
+$('.brand_slider').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+
+  ]
+});
+
+$('.battles_slider').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+
+  ]
+});
+
+
+
+$('.events_slider').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+
+  ]
+});
+
 // slick slider button
 $('.slick-prev').addClass('material-icons').text('keyboard_arrow_left');
 $('.slick-next').addClass('material-icons').text('keyboard_arrow_right');
@@ -83,28 +188,12 @@ $('.hamburge_icon').click(function() {
          $(this).find('.subMenu').slideDown();     
       }
         
-      });
+      });  
 
-    // let tabElm = $('.tabs_wraper');
-    // let tab_btn = $('.tabs_btn li').width();
-    // let widthElm = tab_btn * 25;
-    // let el = 0;
-    // $('.tab_box').css('width', widthElm);
-    // $('.tabs_btn').addClass('active');
 
-    // $('.tabs_btn.active li').click(function() {
-    //   let lastchild = $('.tabs_btn.active li:last-child');
-    //   let elm = $(this).width() + 30;
-    //    el += elm;
-
-    //    if($('.tabs_btn').css('transform','translateX') > 1200) {
-    //      $('.tabs_btn').removeClass('active');
-    //    }
-
-    //   $('.tabs_wrpaer').css('transform',"translateX("+(-el)+"px)");
-    //   console.log($('.tabs_btn').css('transform','translateX'))
-    // })
+    // floating tabs menu
 
    
+});
 
-})
+
