@@ -24,6 +24,19 @@ $(document).ready(function() {
 
 
 
+    $('#gallery a').fancybox({
+    overlayColor: '#060',
+    overlayOpacity: .4,
+    transitionIn: 'elastic',
+    transitionOut: 'elastic',
+    easingIn: 'easeInSine',
+    easingOut: 'easeOutSine',
+    titlePosition: 'outside',
+    cyclic: true
+  });
+
+
+
 $('.slider_search_plane').slick({
   dots: false,
   infinite: true,
@@ -188,7 +201,6 @@ $('.hamburge_icon').click(function() {
       });  
 
 
-    // floating tabs menu
 
    
 });
