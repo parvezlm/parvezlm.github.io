@@ -1048,6 +1048,12 @@ button,input {
 .battles_slider a{
     margin: 15px auto 20px;
     display: block;
+    transition: all 0.2s;
+}
+
+.battles_slider a:hover {
+    background-color: #f75d34;
+    color: #fff;
 }
 
 
@@ -1090,6 +1096,34 @@ button,input {
     margin-bottom: 30px;
 }
 
+.list_opt select {
+    padding: 5px;
+}
+
+.list_opt .customSelect:after {
+    top: 23px;
+    right: 30px;
+}
+
+.list_opt .customSelect span {
+    border-width: 0 0 1px 0;
+    border-radius: none;
+}
+
+.slick-initialized .slick-slide {
+    outline: none;
+}
+
+.launch_btn:hover,
+.slide_btm a:hover {
+    background-color: #f75d34;
+    color:#fff;
+}
+
+.slider_search_plane .slick-next, 
+.slider_search_plane .slick-prev {
+    top: 227px;
+}
 
 /*==================footer ================*/
 footer {

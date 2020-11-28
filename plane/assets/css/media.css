@@ -183,6 +183,17 @@
 	
 }
 
+
+@media(max-width:575px) {
+	.col-sm-6.pr-0 {
+		padding-right:15px!important;
+	}
+
+	.col-sm-6.pl-0 {
+		padding-left: 15px!important;
+	}
+}
+
 @media(max-width:560px) {
 	.header_top_rht  ul li.language{
 		display: none;
@@ -234,5 +245,14 @@
 
 	.events .col img {
     	width: 120px;
+	}
+
+	.slide_btm .col-6 {
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+	
+	.price_rht a {
+		max-width: 100%;
 	}
 }
