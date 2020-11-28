@@ -1125,6 +1125,12 @@ button,input {
     top: 227px;
 }
 
+.pic_lft,
+.pic_rht,
+.img_wide_box {
+    border: 1px solid #fff;
+}
+
 /*==================footer ================*/
 footer {
     padding: 60px 0 10px;
