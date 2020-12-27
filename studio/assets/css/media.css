@@ -217,4 +217,9 @@
 	.faq_inner h3 {
     	font-size: 24px;
 	}
+
+	.banner_slider h2 br,
+	.banner_slider h1 br {
+		display: block;
+	}
 }

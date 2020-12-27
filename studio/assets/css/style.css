@@ -782,6 +782,11 @@ h3.with_line:after {
 .social_media .banner_social_buttons .links a {
 	font-size: 14px;
 }
+
+.banner_slider h2 br,
+.banner_slider h1 br {
+	display: none;
+}
 /*============homepage end=============*/
 
 
