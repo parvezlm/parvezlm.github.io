@@ -80,6 +80,10 @@
 	.lates_work_inr .tab_btn li {
 		margin-bottom: 15px;
 	}
+
+	.accord_box .row .col-md-6 + .col-md-6 {
+    	padding-left: 15px;
+	}
 }
 
 @media(max-width: 767px) {
@@ -120,6 +124,27 @@
 	.contact_rht .col-md-6 img {
 		margin-top: 15px;
 	}
+
+	.col-md-6.pr-0 {
+		padding-right: 15px!important;
+	}
+
+	.col-md-6.pl-0 {
+		padding-left: 15px!important;	
+	}
+
+	.about_banner {
+    	padding: 110px 0 50px;
+	}
+
+	.latest_work_iner .col-md-4 {
+		margin-bottom: 30px;
+	}
+
+	.latest_work {
+    	padding: 0 0 30px;
+	}
+
 }
 
 @media(max-width: 560px) {
@@ -169,6 +194,22 @@
 
 	.accord_wraper h4 i {
     	font-size: 14px;
+	}
+
+	.about_bnr_rht {
+    	padding: 40px 30px;
+	}
+
+	.about_bnr_rht h3 {
+		text-align: center;
+	}
+
+	.common_heading2 {
+    	font-size: 38px;
+	}
+
+	.choose_iner .col-md-4 {
+    	margin-bottom: 50px;
 	}
 }
 

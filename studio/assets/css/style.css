@@ -61,6 +61,22 @@ a {
     font-weight: 600;
 }
 
+.button_style2:after{
+	 content: "";
+    font-family: "basic-ui-icons";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
 .btn_style1:hover, 
 .btn_style1:focus {
   background-color: #c48f56;
@@ -995,6 +1011,9 @@ h3.with_line:after {
 	border: 2px solid #c48f56;
 	border-radius: 50%;
 	margin: 0 auto 25px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .choose_box {
@@ -1042,10 +1061,61 @@ h3.with_line:after {
 
 .latest_work_box  {
 	color: #fff;
+	background: #111111;
+}
+
+.latest_wrk_mid {
+	padding: 20px 35px 0.1px;
+}
+
+.latest_wrk_mid h4 {
+	font-size: 24px;
+}
+
+.latest_wrk_mid span {
+	font-weight: bold;
+    font-size: 10px;
+    margin: 15px 0;
+    color: #c48f56;
+}
+
+.latest_wrk_mid p {
+	margin: 15px 0;
+    font-size: 14px;
+    line-height: 1.714em;
+    font-weight: 200;
+}
+
+.icon_ring span {
+	font-size: 46px;
+}
+
+.cstm_padd {
+	padding: 15px 0;
+}
+
+.latest_wrk_btm {
+	border-top: 1px solid #191919;
+	padding: 16px 35px;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.latest_wrk_btm a {
+	color: #fff;
+	font-size: 14px;
+}
+
+.latest_wrk_btm a i {
+	margin-right: 5px;
+	color: #c48f56;
 }
 /*=============about page end============*/
 
-
+.accord_box .row .col-md-6 + .col-md-6 {
+	padding-left: 60px;
+}
 
 
 /*=================footer===============*/
