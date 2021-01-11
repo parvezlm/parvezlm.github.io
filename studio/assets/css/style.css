@@ -87,16 +87,18 @@ a {
 	color: #fff;
 }
 
-.common_heading1 {
-	font-size: 36px;
+.common_heading1,
+.common_heading2 {
 	color: #fff;
 	font-weight: 700;
 }
 
+.common_heading1 {
+	font-size: 36px;
+}
+
 .common_heading2 {
 	font-size: 48px;
-	color: #fff;
-	font-weight: 700;
 }
 
 
@@ -608,6 +610,7 @@ h3.with_line:after {
 	max-width: 33.33%;
 	padding: 0 15px;
 	transition: all 0.2s;
+	margin-bottom: 25px;
 }
 
 .latesWork_card img {
@@ -634,9 +637,15 @@ h3.with_line:after {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	display: none;
-	transition: all 0.3s;
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
 }
+
+.latesWork_card:hover .overlay {
+	opacity: 1;
+}
+
+
 
 .latesWork_card .overlay h5 {
 	font-weight: 700;
@@ -654,9 +663,7 @@ h3.with_line:after {
     background: #fff;
 }
 
-.latesWork_card:hover .overlay {
-	display: flex;
-}
+
 .latesWork_card .overlay p {
 	color: #fff;
 }
@@ -1118,6 +1125,21 @@ h3.with_line:after {
 }
 
 
+/*=============portfolio page===========*/
+.portfolio {
+	padding: 140px 0 60px;
+}
+
+/*=============portfolio page end===========*/
+
+
+
+
+
+
+
+
+
 /*=================footer===============*/
 .footer {
 	background-color: #232323;
@@ -1183,5 +1205,7 @@ h3.with_line:after {
   }
 /*=================footer end===============*/
 
-
+.animate__animated.animate_fadeInRight {
+  --animate-duration: 2s;
+}
 

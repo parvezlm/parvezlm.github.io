@@ -82,7 +82,7 @@ $(document).ready(function() {
 	    item:1,
 	    nav: true,
         dots: false,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: true,
         smartSpeed: 3000,
@@ -114,7 +114,7 @@ $(document).ready(function() {
 	    item:1,
 	    nav: true,
         dots: true,
-        autoplay: false,
+        autoplay: true,
 	    responsiveClass:true,
 	    responsive:{
 	        0:{
