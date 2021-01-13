@@ -1134,6 +1134,124 @@ h3.with_line:after {
 
 
 
+/*=================EXTERIOR RENDERING page===========*/
+
+.extr_banner {
+	background:url(../img/slider/banner_slide2.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 60px 0 40px;
+	position: relative;
+	z-index: 1;
+}
+
+.extr_banner:before {
+	content: '';
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	z-index: -1;
+}
+
+.ext_banner_inr {
+	min-height: 100vh;
+	text-align: center;
+}
+
+.ext_banner_inr h2 {
+	color: #fff;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.ext_banner_inr p {
+	font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.design_solution {
+	padding: 30px 0 60px;
+}
+
+.desingSolution_inr h3.with_line:after {
+	margin: 30px auto 40px;
+}
+
+.design_box {
+	color: #fff;
+}
+
+.design_box h4 {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.design_box p {
+	font-size: 14px
+}
+
+.design_box ul {
+	padding-left: 15px;
+}
+
+.design_box ul li {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.intouch {
+	padding: 100px 0 80px;
+	background-color: #fff;
+}
+
+.intouch_inr h4 {
+	    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.brief_includes {
+	padding: 80px 0 90px;
+	background-color: #232323;
+}
+
+.brief_includes p {
+	color: #fff;
+}
+
+
+.golden_btn {
+	background-color:#c48f56;
+	color: #fff;
+}
+
+.brief_rht .form-control {
+	height: 50px;
+}
+
+.brief_rht form button {
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}
+
+
+.brief_rht .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #c48f56;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #c48f56;
+}
+
+/*=================EXTERIOR RENDERING page end===========*/
+
 
 
 
