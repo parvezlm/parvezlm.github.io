@@ -8,6 +8,14 @@
 	.weR_lft img {
 		width: 100%;
 	}
+
+	.we_extr_nectar h3 {
+		margin-top: 0;
+	}
+
+	.contactus_lft {
+	    padding: 60px 40px 60px;
+	}
 }
 
 @media(max-width: 991px) {
@@ -84,6 +92,14 @@
 	.accord_box .row .col-md-6 + .col-md-6 {
     	padding-left: 15px;
 	}
+
+	.design_box h4 {
+     	font-size: 20px;
+	}
+
+	.design_box h4 br {
+		display: none;
+	}
 }
 
 @media(max-width: 767px) {
@@ -146,8 +162,41 @@
 	}
 
 	.portfolio {
-    padding: 110px 0 20px;
-}
+    	padding: 110px 0 20px;
+	}
+
+	.ext_banner_inr h2 {
+		font-size: 54px;
+	}
+
+	.we_extr_nectar h3 {
+    	margin-top: 40px;
+	}
+
+	.design_solution {
+    	padding: 10px 0 30px;
+	}
+
+	.desingSolution_inr .col-md-4,
+	.desingSolution_inr .col-md-3,
+	.intouch .col-md-4 {
+		margin-bottom: 30px;
+	}
+
+	.intouch {
+    	padding: 60px 0 60px;
+	}
+
+	.brief_includes {
+    	padding: 60px 0 65px;
+	}
+
+	.brief_rht,
+	.contactus_inner form {
+		margin-top: 30px;
+	}
+
+
 }
 
 @media(max-width: 560px) {
@@ -222,6 +271,10 @@
 	.tstm_slide_rht .quote .q {
 		left: 8px;
 	}
+
+	.brief_lft {
+		text-align: center;
+	}
 }
 
 @media(max-width: 414px) {
@@ -278,5 +331,9 @@
 	.lates_work_inr .gallery figure {
     flex: 0 0 100%;
     max-width: 100%;
-}
+	}
+
+	.ext_banner_inr h2 {
+    	font-size: 44px;
+	}
 }

@@ -1228,6 +1228,12 @@ h3.with_line:after {
 .golden_btn {
 	background-color:#c48f56;
 	color: #fff;
+	border:1px solid #c48f56!important;
+}
+
+.golden_btn:hover {
+	background-color: #fff;
+	color: #c48f56;
 }
 
 .brief_rht .form-control {
@@ -1242,7 +1248,8 @@ h3.with_line:after {
 }
 
 
-.brief_rht .form-control:focus {
+.brief_rht .form-control:focus,
+.contactus_rht .form-control:focus {
     color: #495057;
     background-color: #fff;
     border-color: #c48f56;
@@ -1250,6 +1257,54 @@ h3.with_line:after {
     box-shadow: 0 0 0 0.2rem #c48f56;
 }
 
+
+.sample_work {
+	padding: 80px 0 70px;
+}
+
+
+
+.contactus {
+	background-color: #fff;
+	padding: 60px 0 70px;
+}
+
+.contactus h3 {
+	color: #000;
+    margin-bottom: 20px;
+}
+
+.contactus_inner {
+	background-color: #f0f0f0;
+	padding: 20px;
+}
+
+
+.contactus_lft {
+	 background-color: #fff;
+    height: 100%;
+    padding: 75px 40px 90px;
+}
+
+.contactus_rht .form-control {
+	background-color: #f8f8f8;
+	\background-color: #f8f8f8;
+    border: none;
+    height: 48px;
+}
+
+
+.contactus_rht textarea.form-control {
+	resize: none;
+	height: 120px;
+}
+
+.contactus_rht .submit_btn.golden_btn {
+	border: none;
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+}
 /*=================EXTERIOR RENDERING page end===========*/
 
 
