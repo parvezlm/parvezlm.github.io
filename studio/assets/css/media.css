@@ -336,4 +336,8 @@
 	.ext_banner_inr h2 {
     	font-size: 44px;
 	}
+
+	.ext_banner_inr {
+    	min-height: 80vh;
+	}
 }
