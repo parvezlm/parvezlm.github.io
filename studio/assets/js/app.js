@@ -202,6 +202,14 @@ $(document).ready(function() {
 	 	
 	 })
 
+
+	 $('.dropdown_btn').click(function(e) {
+	 	e.preventDefault();
+		if($(window).width() < 992) {
+    	   $(this).find('.submenu').slideToggle();	 
+    	}
+	})
+
 })
 
 
