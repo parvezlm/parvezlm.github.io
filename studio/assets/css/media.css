@@ -103,11 +103,12 @@
 	}
 
 	.submenu {
-		position: relative;
+		/*position: relative;*/
 		display: none;
 		visibility: initial;
 		opacity: initial;
-		top: -9px;
+		top: 31px;
+		z-index: 99;
 	}
 
 	.submenu li a {
