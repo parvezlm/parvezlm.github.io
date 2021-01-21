@@ -480,6 +480,7 @@ a {
 
 .we_r_nectar {
 	padding: 70px 0;
+	overflow: hidden;
 }
 
 
@@ -1335,8 +1336,9 @@ h3.with_line:after {
 
 
 
-
-
+.overflow_hidden {
+	overflow: hidden;
+}
 
 
 /*=================footer===============*/

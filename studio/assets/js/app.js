@@ -42,6 +42,8 @@
 
 
 $(document).ready(function() {
+	
+	// fixed header on scroll
 	$(window).scroll(function() {
 		if($(this).scrollTop() > 45) {
 			$('.header').addClass('fixed_header');
@@ -203,13 +205,19 @@ $(document).ready(function() {
 	 })
 
 
+	 // submenu dropdown for mobile view
 	 $('.dropdown_btn').click(function(e) {
 	 	// e.preventDefault();
 		if($(window).width() < 992) {
     	   $(this).find('.submenu').toggle();	 
     	}
-	})
+	});
 
+
+	 // aos animation
+
+	 
+		AOS.init();
 })
 
 
