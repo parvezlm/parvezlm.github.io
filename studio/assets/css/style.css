@@ -1336,6 +1336,7 @@ h3.with_line:after {
 .desingSolution_inr > h4,
 .desingSolution_inr > h3 {
 	font-size: 40px;
+	text-align:left!important;
 }
 /*=================EXTERIOR RENDERING page end===========*/
 
