@@ -1332,6 +1332,11 @@ h3.with_line:after {
     height: 48px;
     border-radius: 4px;
 }
+
+.desingSolution_inr > h4,
+.desingSolution_inr > h3 {
+	font-size: 40px;
+}
 /*=================EXTERIOR RENDERING page end===========*/
 
 
