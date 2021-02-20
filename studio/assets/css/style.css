@@ -1216,6 +1216,7 @@ h3.with_line:after {
 .design_box h4 {
 	font-size: 24px;
 	margin-bottom: 15px;
+	text-transform: uppercase;
 }
 
 .design_box p {
@@ -1333,10 +1334,10 @@ h3.with_line:after {
     border-radius: 4px;
 }
 
+
 .desingSolution_inr > h4,
 .desingSolution_inr > h3 {
 	font-size: 40px;
-	text-align:left!important;
 }
 /*=================EXTERIOR RENDERING page end===========*/
 
@@ -1412,7 +1413,6 @@ h3.with_line:after {
   }
 /*=================footer end===============*/
 
-/*.animate__animated.animate_fadeInRight {
-  --animate-duration: 2s;
+.text_color {
+	color: #c48f56;
 }
-*/
