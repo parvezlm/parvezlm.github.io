@@ -289,12 +289,12 @@
 	.brief_lft {
 		text-align: center;
 	}
-	
-	
+
 	.desingSolution_inr > h4, .desingSolution_inr > h3 {
 		font-size: 32px;
 		text-align:center!important;
 	}
+
 }
 
 @media(max-width: 414px) {
