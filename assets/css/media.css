@@ -1,0 +1,363 @@
+@media(min-width: 1450px){
+	.container {
+		max-width: 85%;
+	}
+}
+
+@media(max-width: 1199px) {
+	.weR_lft img {
+		width: 100%;
+	}
+
+	.we_extr_nectar h3 {
+		margin-top: 0;
+	}
+
+	.contactus_lft {
+	    padding: 60px 40px 60px;
+	}
+}
+
+@media(max-width: 991px) {
+	.footer_mid p {
+		word-break: break-all;
+	}
+
+	.footer_lft img {
+    	max-width: 180px;
+	}
+
+	.footer_mid ul li {
+    	padding: 8px 0px 8px 0px;
+	}
+
+	.footer_mid ul li a {
+		font-size: 14px;
+	}
+
+	.footer {
+		font-size: 14px;
+	}
+
+	.menu_wraper {
+		position: fixed;
+	    top: 0;
+	    left: -100%;
+	    height: 100%;
+	    background-color: #000;
+    	z-index: -1;
+    	transition: all 0.2s;
+    	width: 100%;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    overflow: auto;
+	}
+
+	.menu,
+	.menu li,
+	.menu li a {
+		display: block;
+	}
+
+
+	.menu li {
+		margin-bottom: 20px;
+	}
+
+
+	.menu li a  {
+		padding-left: 20px;
+	    text-align: center;
+	    max-width: 360px;
+	    font-size: 18px;
+	}
+
+	.menu li a.active {
+    	border: none;
+    	color: #c48f56;
+	}
+
+	.navbar {
+		padding-left: 0;
+	}
+
+	.hamburge_icon {
+		display: block;
+	}
+
+	.lates_work_inr .tab_btn li {
+		margin-bottom: 15px;
+	}
+
+	.accord_box .row .col-md-6 + .col-md-6 {
+    	padding-left: 15px;
+	}
+
+	.design_box h4 {
+     	font-size: 20px;
+	}
+
+	.design_box h4 br {
+		display: none;
+	}
+
+	.submenu {
+		/*position: relative;*/
+		display: none;
+		visibility: initial;
+		opacity: initial;
+		top: 31px;
+		z-index: 99;
+	}
+
+	.submenu li a {
+		font-size: 12px;
+	}
+}
+
+@media(max-width: 767px) {
+	.banner_slider .main_heading {
+      font-size: 50px;
+	}
+
+	.banner_slider .slide {
+    	min-height: 701px
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	.footer h3.with_line:after {
+	    margin: 15px auto 0;
+	}
+
+	.footer_rht h3 {
+		margin-top: 45px;
+	}
+
+	.logo_slider img {
+		width: 300px!important;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.partenrs_box {
+    	padding: 10px 0 20px;
+	}
+
+	.contact_inre form {
+		margin-bottom: 60px;
+	}
+
+	.contact_rht .col-md-6 img {
+		margin-top: 15px;
+	}
+
+	.col-md-6.pr-0 {
+		padding-right: 15px!important;
+	}
+
+	.col-md-6.pl-0 {
+		padding-left: 15px!important;	
+	}
+
+	.about_banner {
+    	padding: 110px 0 50px;
+	}
+
+	.latest_work_iner .col-md-4 {
+		margin-bottom: 30px;
+	}
+
+	.latest_work {
+    	padding: 0 0 30px;
+	}
+
+	.portfolio {
+    	padding: 110px 0 20px;
+	}
+
+	.ext_banner_inr h2 {
+		font-size: 54px;
+	}
+
+	.we_extr_nectar h3 {
+    	margin-top: 40px;
+	}
+
+	.design_solution {
+    	padding: 10px 0 30px;
+	}
+
+	.desingSolution_inr .col-md-4,
+	.desingSolution_inr .col-md-3,
+	.intouch .col-md-4 {
+		margin-bottom: 30px;
+	}
+
+	.intouch {
+    	padding: 60px 0 60px;
+	}
+
+	.brief_includes {
+    	padding: 60px 0 65px;
+	}
+
+	.brief_rht,
+	.contactus_inner form {
+		margin-top: 30px;
+	}
+
+
+}
+
+@media(max-width: 560px) {
+	.banner_slider .main_heading {
+    	font-size: 34px;
+	}
+
+	.lates_work_inr .gallery figure {
+    	flex: 0 0 50%;
+    	max-width: 50%;
+	}
+
+	.weRnectar_inr {
+		text-align: center;
+	}
+
+	h3.with_line:after {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.common_heading1 {
+    	font-size: 30px;
+	}
+
+	.contact_lft.pr-5 {
+		padding-right: 0!important;
+	}
+
+
+	.faq_sec {
+    	padding: 40px 0 60px;
+	}
+
+	.faq_inner h2 {
+    	font-size: 34px;
+	}
+
+	.faq_inner h3 {
+	    font-size: 26px;
+	    text-align: center;
+	}
+
+	.accord_wraper h4 {
+    	font-size: 18px;
+	}
+
+	.accord_wraper h4 i {
+    	font-size: 14px;
+	}
+
+	.about_bnr_rht {
+    	padding: 40px 30px;
+	}
+
+	.about_bnr_rht h3 {
+		text-align: center;
+	}
+
+	.common_heading2 {
+    	font-size: 38px;
+	}
+
+	.choose_iner .col-md-4 {
+    	margin-bottom: 50px;
+	}
+
+	.tstm_slide_rht {
+ 	   padding: 80px 20px 80px 20px;
+	}
+
+	.tstm_slide_rht .quote .q {
+		left: 8px;
+	}
+
+	.brief_lft {
+		text-align: center;
+	}
+
+	.desingSolution_inr > h4, .desingSolution_inr > h3 {
+		font-size: 32px;
+		text-align:center!important;
+	}
+
+}
+
+@media(max-width: 414px) {
+	.banner_slider .main_heading {
+    	font-size: 27px;
+	}
+
+	.logo_wraper {
+    	max-width: 210px;
+	}
+
+	.hamburge_icon {
+		left: 22px;
+	}
+
+	.tstm_slide_rht .quote p {
+    	font-size: 16px;
+    	line-height: 32px;
+	}
+
+	.tstm_slide_rht h4 {
+		font-size: 27px;
+	}
+
+	.social_media .banner_social_buttons .links {
+		    display: flex;
+		    flex-wrap: wrap;
+		    align-items: center;
+		    justify-content: center;
+	} 
+
+	.social_media .banner_social_buttons .links  a:last-child{
+		margin-top: 10px;
+	}
+
+	.faq_inner h2 {
+    	font-size: 28px;
+    	text-align: center;
+	}
+
+	.faq_inner h2 + p {
+		text-align: center;
+	}
+
+	.faq_inner h3 {
+    	font-size: 24px;
+	}
+
+	.banner_slider h2 br,
+	.banner_slider h1 br {
+		display: block;
+	}
+
+	.lates_work_inr .gallery figure {
+    flex: 0 0 100%;
+    max-width: 100%;
+	}
+
+	.ext_banner_inr h2 {
+    	font-size: 44px;
+	}
+
+	.ext_banner_inr {
+    	min-height: 80vh;
+	}
+}
