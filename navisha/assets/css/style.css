@@ -1,0 +1,240 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Hammersmith+One&display=swap');
+
+
+
+body {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+	color: #000000;
+}
+
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+p {
+	margin-bottom: 10px;
+}
+
+
+.font_hamersmith {
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+
+.main_heading {
+	font-size: 20px;
+}
+
+
+.main_sub_heading {
+	margin: 0 0 14px;
+    letter-spacing: .6px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.main_title {
+	text-transform: uppercase;
+    letter-spacing: .9px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.main_sub_title {
+	letter-spacing: .6px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+
+.main_title2 {
+	 font-size: 13px;
+	 font-weight: 600;
+}
+
+.main_sub_title2 {
+	 font-size: 13px;
+}
+
+
+.text_grey {
+	color: #969696;
+}
+
+
+.form-control:focus {
+    border-color: #092d1c;
+    outline: 0;
+    box-shadow:none;
+}
+
+
+.btn_transparent {
+	background-color: transparent;
+    border: none;
+    font-size: 24px;
+}
+
+
+button {
+	outline: none!important;
+}
+
+/*======================header=====================*/
+.header {
+	background-color: #fff;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 20%);
+}
+
+
+.header_top {
+	padding:12px 0 10px;
+	border-bottom:1px solid #e0e0e0;
+}
+
+
+.logo_box img {
+	max-width: 200px;
+}
+
+
+.header_top .search_box {
+	position: relative;
+}
+
+.header_top .search_box button {
+	position: absolute;
+    top: 3px;
+    right: 7px;
+}
+
+
+.header_top .search_box input {
+	background-color: rgb(4 51 31 / 10%);
+	height: 44px;
+	padding-right: 45px;
+}
+
+.header_items ul {
+	list-style: none;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_items ul li {
+	display: inline-block;
+}
+
+.header_items ul li button img{
+	width:  24px;
+}
+
+
+.header_items ul li button p {
+	font-size: 14px;
+}
+
+
+.header_items ul li button:hover p {
+	color: #092d1c;
+}
+
+.header_btm .menu {
+	list-style: none;
+}
+
+.header_btm .menu > li {
+	display: inline-block;
+	margin-right: 28px;
+}
+
+.header_btm .menu > li > a {
+	padding: 15px 2px;
+    display: inline-block;
+    transition: all 0.2s;
+    position: relative;
+}
+
+
+.header_btm .menu  li a {
+	color: #000;
+    text-decoration: none;
+}
+
+
+.header_btm .menu li a:hover {
+	color: #092d1c;
+}
+
+.header_btm .menu > li > a:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: auto;
+	bottom: -1px;
+	width:0;
+	height: 2px;
+	background-color: #092d1c;
+	transition: all 0.2s;
+}
+
+.header_btm .menu > li > a:hover:after {
+	width: 100%;
+}
+
+
+.menu > li {
+	position: relative;
+}
+
+
+.menu li .submenu {
+	position: absolute;
+	min-width: 150px;
+	background-color: #fff;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    top: 55px;
+    left: 0;
+    padding: 10px 0;
+    display: none;
+    transition: all 0.2s;
+}
+
+.menu li .submenu li {
+	min-width: 180px;
+	display: block;
+}
+
+
+.menu li .submenu li a {
+	display: block;
+    padding: 5px 14px;
+    transition: all 0.2s;
+}
+
+.menu li .submenu li a:hover {
+	color: #fff;
+	background-color: #092d1c;
+}
+
+
+.menu > li:hover .submenu {
+	display: block;
+	
+}
+
+
+
+
+/*======================header end=====================*/
