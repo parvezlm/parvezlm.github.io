@@ -1445,7 +1445,7 @@ h3.with_line:after {
 }
 
 .interior_banner {
-    background: url(../img/nterior-renderingbg.jpg) no-repeat;
+    background: url(../img/nterior_renderingbg.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
