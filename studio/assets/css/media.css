@@ -16,6 +16,14 @@
 	.contactus_lft {
 	    padding: 60px 40px 60px;
 	}
+
+	.design_solution .row {
+		margin: 0 -15px;
+	}
+
+	.design_solution .col-md-3 {
+		padding: 0 15px;
+	}
 }
 
 @media(max-width: 991px) {

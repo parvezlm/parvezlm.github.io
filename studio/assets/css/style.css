@@ -540,7 +540,7 @@ h3.with_line:after {
 }
 
 .category_slide4 {
-	background-image: url(../img/left_img.png)
+	background-image: url(../img/3darcht.gif)
 }
 
 
@@ -1415,4 +1415,36 @@ h3.with_line:after {
 
 .text_color {
 	color: #c48f56;
+}
+
+
+.design_solution .row {
+    margin: 0 -55px;
+}
+
+.design_solution .col-md-3 {
+    padding: 0 55px;
+}
+
+.design_box .golden_btn {
+    padding: 10px 65px;
+    border-radius: 4px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+ .design_solution .design_box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.ourDesing_wraper .design_box {
+    justify-content: space-between;
+
+}
+
+.interior_banner {
+    background: url(../img/nterior-renderingbg.jpg) no-repeat;
+    background-size: cover;
 }
