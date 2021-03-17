@@ -1459,3 +1459,6 @@ h3.with_line:after {
 .weR_rht ul li {color:#fff;}
 
 .weR_rht .button_style2 {font-size:16px;}
+
+.map_box,
+.map_box iframe {width:100%}
