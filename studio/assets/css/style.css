@@ -1449,3 +1449,10 @@ h3.with_line:after {
     background-size: cover;
     background-attachment: fixed;
 }
+
+
+.weR_rht ul {
+  list-style:none;
+}
+
+.weR_rht ul li {color:#fff;}
