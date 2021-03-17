@@ -1453,6 +1453,9 @@ h3.with_line:after {
 
 .weR_rht ul {
   list-style:none;
+  margin-bottom:20px;
 }
 
 .weR_rht ul li {color:#fff;}
+
+.weR_rht .button_style2 {font-size:16px;}
